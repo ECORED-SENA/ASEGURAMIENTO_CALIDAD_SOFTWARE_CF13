@@ -17,13 +17,12 @@
     #t_1_1.titulo-segundo
       h2 1.1  Tipos de pruebas
 
-    .jumbotrom.mb-5
-      .row.justify-content-center.align-items-center.mb-4.p-4
-        .col-lg.order-2.order-lg-1
-          .custom_box_right    
-            p.mb-0 Las pruebas de software se pueden clasificar en dos tipos principales: pruebas funcionales y pruebas no funcionales. Teniendo en cuenta los diferentes frentes y aspectos de un producto software, con lo cual se requerirán diferentes tipos de pruebas, tales como: pruebas unitarias, pruebas de integración, pruebas de estrés, pruebas de rendimiento, pruebas de escalabilidad, entre otras. Cada uno de estos tipos de pruebas de software determinan la visibilidad de la aplicación, desde el código fuente hasta la interacción y experiencia con el usuario. Entrando en detalles, a continuación se invita a observar el siguiente video donde podrá identificar los tipos de pruebas de software.
-        .col-auto.mb-5.mb.onTop.order-1.order-lg-3
-          img(src="@/assets/curso/images/tema1/img_2.svg" alt='AvatarTop', style="width:320px;")
+    .row.align-items-end.justify-content-center.mb-5.fondo-7
+      .col-lg-8.ofVisible
+        p.mb-5 Las pruebas de software se pueden clasificar en dos tipos principales: pruebas funcionales y pruebas no funcionales. Teniendo en cuenta los diferentes frentes y aspectos de un producto software, con lo cual se requerirán diferentes tipos de pruebas, tales como: pruebas unitarias, pruebas de integración, pruebas de estrés, pruebas de rendimiento, pruebas de escalabilidad, entre otras. Cada uno de estos tipos de pruebas de software determinan la visibilidad de la aplicación, desde el código fuente hasta la interacción y experiencia con el usuario. Entrando en detalles, a continuación se invita a observar el siguiente video donde podrá identificar los tipos de pruebas de software.
+      .col-lg-4.lg-0
+        figure
+          img(src='@/assets/curso/images/tema1/img_2.svg' alt='imagen relacionada')
     
     figure.mb-5
       .video
@@ -527,8 +526,8 @@
 
         p.mb-5 El Agile testing contiene los siguientes principios que son aplicados a un buen desarrollo de software:
 
-    TabsC.color-acento-contenido.fondo.mb-5
-      .py-3.py-md-4.color-tab.color-custom-4(titulo="Integración continua")
+    TabsC.color-acento-contenido.mb-5
+      .py-3.py-md-4.fondo(titulo="Integración continua")
         .row.align-items-center.justify-content-center
           .col-lg-5
             h3 Integración continua
@@ -536,7 +535,7 @@
           .col-lg-5
             figure
               img.mx-5(src='@/assets/curso/images/tema1/img_25.png' alt='')
-      .py-3.py-md-4.color-tab.color-custom-4(titulo='Entrega continua')
+      .py-3.py-md-4.fondo(titulo='Entrega continua')
         .row.align-items-center.justify-content-center
           .col-lg-5
             h3 Entrega continua
@@ -544,7 +543,7 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/images/tema1/img_26.png' alt='')
-      .py-3.py-md-4.color-tab.color-custom-4(titulo='Elaborar menos documentación')
+      .py-3.py-md-4.fondo(titulo='Elaborar menos documentación')
         .row.align-items-center.justify-content-center
           .col-lg-5
             h3 Elaborar menos documentación 
@@ -552,7 +551,7 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/images/tema1/img_27.png' alt='')
-      .py-3.py-md-4.color-tab.color-custom-4(titulo='Responder con velocidad a la retroalimentación ')
+      .py-3.py-md-4.fondo(titulo='Responder con velocidad a la retroalimentación ')
         .row.justify-content-center.align-items-center
           .col-lg-5
             h3 Responder con velocidad a la retroalimentación 
@@ -560,7 +559,7 @@
           .col-lg-5
               figure
                 img.mx-5(src='@/assets/curso/images/tema1/img_28.png' alt='')
-      .py-3.py-md-4.color-tab.color-custom-4(titulo='Proporcionar retroalimentación constante')
+      .py-3.py-md-4.fondo(titulo='Proporcionar retroalimentación constante')
         .row.justify-content-center.align-items-center
           .col-lg-5
             h3 Proporcionar retroalimentación constante
@@ -586,7 +585,329 @@
                   p Cuadrantes de prueba, Hands-on QA, VA-25.Curso de Interacción Persona-Ordenador
       .col-lg-4.mb-5.mb-lg-0
         img.my-3(src="@/assets/curso/images/tema1/img_30.svg", alt="")
+
+    .row.align-items-center.mb-5
+      .col-lg-6.mb-lg-0.p-4.fondo-2.mt-5
+          p Las pruebas de los cuadrantes se enfocan en apoyar al equipo de desarrollo a través del desarrollo del producto, puesto que orientan el desarrollo de la funcionalidad, posteriormente contribuyen a la introducción de nuevo código y la refactorización sin que genere resultados imprevistos en el comportamiento del sistema. En la Figura 4, se puede observar los cuadrantes de las pruebas ágiles, teniendo como ejes ‘las pruebas de apoyo al equipo’ y las tecnologías que facilitan el proceso. 
+      .col-lg-6.mb-lg-0.p-3
+        .row.justify-content-center
+          .col-lg-12
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 4
+              span <i>Cuadrantes pruebas ágiles</i>
+          img(src="@/assets/curso/images/tema1/img_25_1.svg" alt="", style="width:450px; display:block; margin: 0 3rem;")
+
+    p.text-center.mb-5 A continuación, se realizará una exploración de los diferentes cuadrantes expuestos:
+
+    SlyderA.fondo-3.mb-3
+      .row.align-items-center.justify-content-center
+        .col-lg-5
+          h3 Pruebas de cara al negocio (Business Facing) 
+          p Son pruebas del Q2 y Q3, pruebas funcionales y pruebas UAT, se enfoca en realizar pruebas manuales y criticando al producto con las pruebas de aceptación.
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/images/tema1/img_31.svg" alt="", style="width:300px; display:block; margin:0 auto;")
+      .row.align-items-center.justify-content-center
+        .col-lg-5
+          h3 Pruebas de cara a la tecnología (Technology Facing)
+          p Pueden ser automatizadas y utilizando herramientas, incluye el Q1 y Q4.
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/images/tema1/img_32.svg" alt="", style="width:300px; display:block; margin:0 auto;")
+      .row.align-items-center.justify-content-center
+        .col-lg-5
+          h3 Pruebas soportando la programación o soporte del equipo (Supporting the Team)
+          p Comprenden pruebas automatizadas y manuales del cuadrante Q2 y Q1 donde se realizan pruebas unitarias y de componentes y pruebas funcionales con prototipos y simuladores.
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/images/tema1/img_33.svg" alt="", style="width:200px; display:block; margin:0 auto;")
+      .row.align-items-center.justify-content-center
+        .col-lg-5
+          h3 Pruebas de críticas al producto (Critique the Product) 
+          p Estas pruebas pueden tener un carácter positivo, puesto que a partir de ellas se pueden sugerir o realizar mejoras. Cuando se ejecutan estas pruebas, la idea es simular lo más que se pueda un ambiente real en el cual serán ejecutadas, así mismo estas pruebas frecuentemente son realizadas por los usuarios finales como pruebas de aceptación (UAT).
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/images/tema1/img_35.svg" alt="", style="width:200px; display:block; margin:0 auto;")
+      .row.align-items-center.justify-content-center
+        .col-lg-5
+          h3 El primer cuadrante (Q1) contiene los siguientes tipos de pruebas:
+          p ●  Pruebas unitarias.
+          p ●  Pruebas de componente.
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/images/tema1/img_36.svg" alt="", style="width:200px; display:block; margin:0 auto;")
+      .row.align-items-center.justify-content-center
+        .col-lg-5
+          h3 El Segundo cuadrante (Q2) definen las funcionalidades que el cliente solicita:
+          p ●   Pruebas funcionales.
+          p ●   Pruebas de historias.
+          p ●   Pruebas de prototipos y simulaciones.
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/images/tema1/img_37.svg" alt="", style="width:200px; display:block; margin:0 auto;")
+      .row.align-items-center.justify-content-center
+        .col-lg-5
+          h3 El tercer cuadrante (Q3) contiene los siguientes tipos de pruebas:
+          p ●   Pruebas exploratorias.
+          p ●   Pruebas de usabilidad.
+          p ●   Pruebas de escenarios.
+          p ●   Pruebas de aceptación de usuario
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/images/tema1/img_38.svg" alt="", style="width:200px; display:block; margin:0 auto;")
+      .row.align-items-center.justify-content-center
+        .col-lg-5
+          h3 El cuarto cuadrante (Q4) contiene pruebas técnicas
+          p Relacionadas con los requerimientos no funcionales, por lo que validan el cumplimiento de estos, analizando la seguridad, el desempeño y la robustez. 
+          p ●   Pruebas de rendimiento y de estrés.
+          p ●   Pruebas de seguridad.
+          p ●   Pruebas de robustez. 
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/images/tema1/img_39.svg" alt="", style="width:200px; display:block; margin:0 auto;")
+        
+    p.mb-5 A continuación, se describen algunas recomendaciones para tener en cuenta al momento de trabajar con pruebas de <i>software</i> ágiles (<i>Agile testing</i>).
+
+    TabsA.color-primario.mb-5
     
+      .tarjeta.back-tab.p-4(titulo="Realizar las pruebas en el proyecto al inicio, en cada sprint y constantemente")
+        
+        .row 
+          .col-lg-8.mb-4
+            h4 Realizar las pruebas en el proyecto al inicio, en cada sprint y constantemente
+            p.mb-3  ● Integrar pruebas unitarias, funcionales y de carga en la planificación desde el principio.
+            p ● Identificar y rectificar problemas de forma temprana, antes que se conviertan en problemas complejos que puedan influir el proyecto.
+          .col-lg-4.mb-4
+              figure
+                img(src='@/assets/curso/images/tema1/img_40.svg')
+             
+      .tarjeta.back-tab.p-4(titulo="Incluye a analistas de pruebas en el equipo de desarrollo")
+        
+        .row 
+          .col-lg-8.mb-4
+            h4 Incluye a analistas de pruebas en el equipo de desarrollo
+            p.mb-3  ● Los testers tienen el conocimiento para asegurar que se entregue un producto de calidad y que cumpla los requerimientos del cliente.
+            p ● Al integrar a los testers al equipo de desarrollo se logra compartir el conocimiento.
+          .col-lg-4.mb-4
+              figure
+                img(src='@/assets/curso/images/tema1/img_41.svg')
+        
+      
+      .tarjeta.back-tab.p-4(titulo="Los testers deben revisar las pruebas unitarias")
+         
+        .row 
+          .col-lg-8.mb-4
+            h4 Los testers deben revisar las pruebas unitarias
+            p.mb-3 ● Los desarrolladores suelen deliberar de forma distinta que los testers.
+            p ● Para mejorar las pruebas unitarias, se debe permitir que los analistas de pruebas revisen las pruebas unitarias y realicen sugerencias. 
+          .col-lg-4.mb-4
+              figure
+                img(src='@/assets/curso/images/tema1/img_42.svg')
+
+      .tarjeta.back-tab.p-4(titulo="Ejecutar las pruebas de carga (estrés) diariamente")
+        
+        .row 
+          .col-lg-8.mb-4
+            h4 Ejecutar las pruebas de carga (estrés) diariamente
+            p.mb-3 ● Las pruebas de estrés son cada vez más críticas para el éxito, considerando que el <i>software</i> de hoy se diseña para implementaciones masivas que puedan escalar.
+            p ● Deben incorporarse pruebas de estrés en todas las construcciones de <i>software</i> a diario.
+          .col-lg-4.mb-4
+              figure
+                img(src='@/assets/curso/images/tema1/img_43.svg')
+
+      .tarjeta.back-tab.p-4(titulo="Automatizar las pruebas de <i>software</i>")
+        
+        .row 
+          .col-lg-8.mb-4
+            h4 Automatizar las pruebas de <i>software</i>
+            p.mb-3 ● Hacer uso de herramientas de automatización de pruebas. De esta forma será más eficiente y eliminará inexactitudes.
+            p ● La automatización de pruebas permitirá ejecutar con mayor eficiencia las pruebas de regresión cada vez que se incorpore actualizaciones.
+          .col-lg-4.mb-4
+              figure
+                img(src='@/assets/curso/images/tema1/img_44.svg')
+      
+    h3.mb-3 Test Driven Development (TDD)
+
+    p.mb-3 Es una técnica de desarrollo que permite crear test antes del código de producción, es decir, en la implementación final. La esencia del TDD es crear un test antes de la implementación, de tal modo que se realice la alimentación y el test pueda pasar y que además va de la mano con la refactorización. Normalmente se tienen requerimientos que son transmitidos en historias de usuario como criterios de aceptación o pueden ser requerimientos como casos de uso, posteriormente se recrean esos requerimientos por medio de pruebas automatizadas, luego estas guían para realizar el funcionamiento con buenas prácticas de desarrollo.
+      
+    .row.justify-content-center
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 5
+          span <i>Flujo del TDD</i>
+        img.my-3(src="@/assets/curso/images/tema1/img_45.svg", alt="")
+
+    p.mb-5.text-center En esencia son tres pasos del desarrollo guiado por pruebas TDD: 
+
+    .row.justify-content-center.mb-5
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-tarjeta-5(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor.color-tarjeta-5
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/tj1.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              p.text-center.text-white  Es así debido a que se crea un test que falle y cuando falla en la consola aparece con letras rojas.
+
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-tarjeta-6(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor.color-tarjeta-6
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/tj2.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-6
+              p.text-center.text-white   Este paso es hacer que el test pase y es llamado Green porque cuando pasa un test, normalmente en la consola aparece con letras verdes.	
+
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-tarjeta-7(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor.color-tarjeta-7
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/tj3.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-7
+              p.text-center.text-white  Una vez que el test pasa, se va a detectar u observar código que se pueda mejorar y si no se está aplicando una buena práctica, es el momento de hacerlo.
+  
+    p.mb-3 A continuación, se mostrará en términos generales como sería el flujo del TDD con pasos y un ejemplo sencillo, no obstante también se hace la invitación a observar el videotutorial llamado “Pruebas unitarias y <i>Test-Driven Development</i>”.
+
+    .jumbotron-9.p-5.mb-5
+      .row.align-items-center.justify-content-center
+        .col-lg-7
+          p.mb-3 Si es de su interés conocer más sobre el proceso de realizar las pruebas unitarias y <i>Test-Driven Development</i>, se le invita a consultar el videotutorial en el  material complementario, al cual puede acceder en el siguiente enlace.
+        .col-lg-5 
+          a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=YuRdaR6w" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p Pruebas unitarias y <i>Test-Driven Development</i>
+
+    p.mb-3 En la siguiente tabla se puede verificar cada uno de los pasos guiados por las pruebas TDD, donde se explican cada uno y se dan ejemplos. 
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10
+        .tabla-b.color-primario.mt-5
+          table
+            thead
+              tr.text-center
+                th 
+                th Pasos
+                th Ejemplo 
+            tbody
+              tr
+                td.th-1.text-center.cs Red
+                td 1. Lo primero es que el cliente escriba una historia de usuario. #[br] #[br]2. Los criterios de aceptación de esta historia se escriben con el cliente, deben estar bien detallados. #[br] #[br] 3. Se debe seleccionar el criterio de aceptación más sencillo y se traduce en una prueba unitaria.
+                td Supóngase que el cliente solicita que se desarrolle una aplicación con operaciones matemáticas sencillas que sume y reste. #[br] #[br] Se define con el cliente que el criterio de aceptación está relacionado con: si se introduce en la aplicación dos números y se suma o resta, entonces la aplicación visualiza el resultado en pantalla. #[br] #[br] De acuerdo a este criterio, se empieza a especificar o definir el funcionamiento del algoritmo para la suma y la resta y luego se convierte el criterio de aceptación en una prueba específica, por ejemplo, un algoritmo que si se introduce los números 3 y 8 devuelve 11.Ejemplo de cómo sería la clase para calcular:  public void testSuma() { assertEquals(8, Operaciones.suma(3,8)); }
+              tr
+                td.th-2.text-center.cs-2 Green
+                td 5.  Se escribe el código que hace pasar la prueba. #[br] #[br] 6. Se ejecutan todas las pruebas automatizadas.
+                td El siguiente paso es escribir el código de la clase, en este momento ya se sabe cómo se va a comportar. #[br] #[br] public class Operaciones { public static int suma (int a, int b) { int c = a + b; return c; } } #[br] #[br] Posteriormente se ejecuta la prueba y en este momento se tiene el código funcionado con la prueba pasada.
+              tr
+                td.th-3.text-center.cs-3 Refactor
+                td 7. Se ejecutan todas las pruebas automatizadas. #[br] #[br] 8. Se refactoriza y se limpia el código.
+                td Cuando esté todo funcionando, se pasa a refactorizar y a eliminar código duplicado. #[br] #[br] Es necesario pasar todos los test después de refactorizar.
+                  
+    h3.mb-3 Acceptance Test Driven Development (ATDD)
+
+    .row.justify-content-center.mb-3
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 6
+          span <i>Imagen ATDD</i>
+      .row.justify-content-center
+        .col-lg-8
+          img.my-3(src="@/assets/curso/images/tema1/img_46.svg", alt="")
+        .col-lg-4 
+          p.mt-4 El desarrollo guiado por pruebas de aceptación (ATDD) es una metodología de desarrollo basada en la comunicación entre los clientes empresariales, los desarrolladores y los testers. Antes de que los desarrolladores comiencen a codificar, ATDD incluye las pruebas de aceptación, pero destaca la escritura de pruebas de aceptación. El proceso ATDD sigue estos pasos:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-8.mb-5.mb-lg-0.fondo-4
+          hr
+          .row.align-items-center.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/images/tema1/ico_6.svg' alt="", style="width:40px; display:block; margin:auto 0;")
+            .col
+              p.mb-0 <b>Seleccione la historia de usuario:</b> en este punto se asume que se realizó una priorización que permite conocer cuál historia de usuario es la próxima a elegir.
+          hr
+          .row.align-items-center.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/images/tema1/ico_7.svg' alt="", style="width:40px; display:block; margin:auto 0;")
+            .col
+              p.mb-0 <b>Escribir la prueba de aceptación:</b> en este punto todos los involucrados deben participar colaborativamente.
+          hr
+          .row.align-items-center.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/images/tema1/ico_8.svg' alt="", style="width:40px; display:block; margin:auto 0;")
+            .col
+              p.mb-0 <b>Implementar la historia de usuario - Automatizar las pruebas:</b>) para este paso existen variadas formas de llevarla a cabo, sin embargo, lo importante es que, a partir de las pruebas de aceptación del paso anterior, se obtienen pruebas ejecutables, que permitirán conocer cuánto de la funcionalidad aún falta.
+          hr
+          .row.align-items-center.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/images/tema1/ico_9.svg' alt="", style="width:40px; display:block; margin:auto 0;")
+            .col
+              p.mb-0 <b>Implementar el código:</b> al igual que el paso anterior, existen diversas formas de hacerlo, una de ellas es utilizando el TDD.
+          hr
+          .row.align-items-center.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/images/tema1/ico_10.svg' alt="", style="width:40px; display:block; margin:auto 0;")
+            .col
+              p.mb-0 <b>Realizar pequeños cambios/refactorización:</b> es la base de esta práctica al igual que TDD, es una práctica iterativa que finaliza cuando los requerimientos del cliente han sido satisfechos.
+          hr
+      .col-12.col-lg-4.mb-5.mb-lg-0
+        img(src='@/assets/curso/images/tema1/img_47.svg' alt="")
+
+      p.mb-3.mt-5 De acuerdo con lo anterior, se parte de un desarrollo al que los programadores han aplicado TDD. Si lo han hecho correctamente, deberían haber obtenido un código limpio y refactorizado, que ha sido probado por pruebas unitarias. El código, por lo tanto, es bueno, pero ¿sucede lo mismo con la aplicación?
+
+      p.mb-3 ATDD no es una técnica de desarrollo o una buena práctica; tiene un enfoque superior. Es una metodología de trabajo para desarrollar <i>software</i>, que busca comprobar si los pasos que se siguen en el desarrollo son los mejores para llegar al objetivo. Con TDD solo se ve si lo que se desarrolla está codificado correctamente y sin errores, es un enfoque miope, solo centrado en desarrollar código de calidad, no la aplicación en su conjunto.
+
+      p.mb-3  Al igual que ocurre en TDD, ATDD consta de una serie de pasos secuenciales que se presentan en la siguiente figura 6.
+
+    .row.justify-content-center.mb-3
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 7
+          span <i>ATDD</i>
+        img.my-3(src="@/assets/curso/images/tema1/img_48.svg", alt="")
+
+
+    .row.justify-content-center.mb-3
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 8
+          span <i>Imagen BDD</i>
+        .row.justify-content-center
+          .col-lg-8
+            img.my-3(src="@/assets/curso/images/tema1/img_49.svg", alt="")
+          .col-lg-4 
+            p El desarrollo dirigido por comportamiento (BDD) propuesto inicialmente por Dan North, es una síntesis y refinamiento de las prácticas de ingeniería de <i>software</i> que ayudan a los equipos generar y entregar <i>software</i> de mayor calidad rápidamente. El proceso de BDD es similar a TDD y sigue estos pasos:  
+
+            p 1. Escribir un escenario.
+
+            p 2. Ejecutar el escenario que falla.
+
+            p 3. Escribir la prueba que corresponde a las especificaciones del escenario.
+
+            p 4. Escribir el código más simple para pasar la prueba y el escenario.
+
+            p 5. Refactorizar para eliminar la duplicación.
+
+
+    p.mb-3 BDD está basado en la técnica TDD, y corrige ciertas deficiencias que presenta TDD. El principal problema de TDD se produce cuando un <i>software</i> pasa correctamente un test y no consigue la funcionalidad deseada. Que un <i>software</i> pase correctamente un test no significa que haga lo que el cliente esperaba de él.
+
+    p.mb-3 Un ejemplo muy sencillo es el siguiente: primero definimos la característica o funcionalidad a implementar en la historia de usuario.
+
+    p.mb-3 Característica: un usuario quiere acceder a una plataforma <i>web</i>universitaria para descargar sus apuntes. Posteriormente se invita a ver la siguiente imagen que contiene dos escenarios a partir de la historia de usuario definida.
+
+    .row.justify-content-center.mb-3
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 9
+          span <i>Infografía ejemplo BDD</i>
+    
+        img.my-3(src="@/assets/curso/images/tema1/fig_1.svg", alt="")
+
+    h3.mb-3 <i>Testing</i> exploratorio
+
+    p.mb-3 Las pruebas exploratorias han sido de gran interés en la comunidad de pruebas de <i>software</i>.
+    
+    p.mb-3 Este enfoque de pruebas generalmente implica probar, aprender y diseñar nuevas pruebas como actividades que interactúan simultáneamente. 
+
+    p.mb-3 Casi todos los testers exploran cómo es el rendimiento de su trabajo, ya sea que lo reconozcan o no. Por ejemplo, considere las pruebas de regresión de errores. Para verificar si se corrigió un error, el tester puede comenzar con los pasos exactos enumerados en el informe de errores, pero después de que el programa pase esta prueba simple, el tester probablemente intentará pruebas adicionales para verificar si el error está completamente solucionado.   
 
 
 
