@@ -909,7 +909,319 @@
 
     p.mb-3 Casi todos los testers exploran cómo es el rendimiento de su trabajo, ya sea que lo reconozcan o no. Por ejemplo, considere las pruebas de regresión de errores. Para verificar si se corrigió un error, el tester puede comenzar con los pasos exactos enumerados en el informe de errores, pero después de que el programa pase esta prueba simple, el tester probablemente intentará pruebas adicionales para verificar si el error está completamente solucionado.   
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-8.mb-5.mb-lg-0
+        p.mb-3 El <i>testing</i> exploratorio es una combinación del diseño, ejecución y aprendizaje sobre el aplicativo que está bajo prueba, lo cual tiene un proceso de exploración y aprendizaje del producto bajo prueba. No se utiliza un guion o script de pruebas previamente diseñado, además es útil en metodologías ágiles.
+        .jumbotron-9.mb-3.p-3
+          .row.align-items-center.justify-content-center
+            .col-lg-8
+              p.mb-3 Si es de su interés conocer más sobre el <i>Testing</i> exploratorio, se le invita a consultar el webinar en el  material complementario, al cual puede acceder en el siguiente enlace.
+              a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=j0eAvY" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-link.svg")
+                .anexo__texto
+                  p Webinar: El arte de hacer <i>Testing</i> Exploratorio
+      .col-lg-4.mb-5.mb-lg-0
+        img.my-3(src="@/assets/curso/images/tema1/img_55.svg", alt="")
+    
+    
+    .row.justify-content-center.mb-3
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 10
+          span <i>Imagen testing exploratorio</i>
+    .jumbotron-10.p-5
+        .row.justify-content-center
+          .col-lg-8
+            img.my-3(src="@/assets/curso/images/tema1/img_56.svg", alt="")
+          .col-lg-4 
+            p ● <b>Exploración del producto:</b> para conocer a fondo cómo cumplir con los requisitos hay que registrar los objetivos, las funciones, los tipos de datos que se procesan y las zonas de inestabilidad del producto. 
 
+            p ● <b>Diseño de pruebas:</b> crear diferentes estrategias para observar y evaluar por completo el producto.
+
+            p ● <b>Ejecución de pruebas:</b> explorar el producto para poder formular una hipótesis de cómo funciona y cuáles pueden ser sus puntos débiles.
+
+            p ● <b>Heurística:</b> reglas generales que ayudarán a cómo probar correctamente el producto.
+
+
+            p ● <b> Resultados revisables:</b> cuando se finalicen las pruebas exploratorias, el tester debe ser capaz de explicar cualquier aspecto del programa y mostrar cómo se cumplen los requisitos indicados en el procedimiento. 
+
+    h3.mb-3 Automatización de pruebas de regresión
+
+    p.mb-3 Aseguran que el cambio realizado en la aplicación o sistema no provoca una falla en la funcionalidad anterior, además consume mucho tiempo si es de manera manual, ya que en ocasiones es más caro la prueba de regresión que lo nuevo que se va a probar y es propenso a tener errores por el factor humano.
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12.col-lg-8.mb-5.mb-lg-0
+        .cajon-b.color-primario.p-3.mb-5
+          p.mb-0  Las pruebas de regresión se efectúan por flujos completos, es ejecutar y realizar las pruebas con las distintas opciones con la que se cuentan, con base en la lógica del negocio, pueden contener a las partes del código modificado, porque una vez que ese elemento tiene cambios, se debe asegurar que hay una conexión que no tiene problemas con el ambiente en donde va a vivir.
+
+          p Se debe analizar los flujos que son los que más convienen y no limitarse a probarlos, debido a que será más costoso que falle en producción.
+      .col-lg-4.mb-5.mb-lg-0
+        img.my-3(src="@/assets/curso/images/tema1/img_57.svg", alt="")
+
+    .cajon-b.cajon-b--c.color-primario.p-4
+      p.mb-0 Estas pruebas toman tiempo en ejecutarlas, sin embargo, al automatizar pruebas, las pruebas de regresión serán asertivas y rápidas, también si se cuenta con los scripts de las pruebas cualquier persona podrá ejecutarlas, sin requerir de un grupo de testers capacitados para estas pruebas, de hecho, si la aplicación original ya tiene mucho tiempo desde la primera vez que se liberó a producción, entonces el riesgo de no contar con alguien que tenga el conocimiento de los flujos se reduce.
+
+    h3.mb-3 Pruebas de regresión
+
+    p.mb-5 Este tipo de pruebas son lanzadas por los desarrolladores o los tester, y es posible su automatización. Para este tipo de pruebas se utilizan las mismas herramientas que se usan en las pruebas unitarias y en las de sistemas, pero también tienen herramientas especializadas de código abierto como:
+
+    .row.align-items-center.justify-content-center.mb-5
+        .col-lg-auto(style='z-index:1')
+          figure
+            img(src='@/assets/curso/images/tema1/img_59.svg' alt='Atención' style='height:260px')
+        .col-lg-6
+          .p-4(style='background-color:rgba(77,208,225,.2);padding-left:50px !important;margin-left:-50px')
+            p.mb-0 Winrunner, VTest, Canoo, AdventNet y QEngine. Y otras herramientas comerciales para aplicar este tipo de pruebas son HP UFT, Seapine QA Wizart Pro, IBM Rational Test Workbench, SmartBear Test Complete, SOASTA, Ranorex UI y OpKey.
+
+    h3.mb-3 Pruebas de exploratorias, usabilidad y aceptación
+
+    p.mb-3 Las pruebas de usabilidad y las pruebas de aceptación del usuario pueden tener diversas semejanzas en términos de resultados y objetivos. No obstante, se podría decir que la primera encuentra errores en el sistema y la segunda demuestra que el sistema está listo, es decir, uno trata de realizar un mejor producto y el otro trata de terminarlo.
+
+    
+    TabsC.color-acento-contenido.mb-5
+      .py-3.py-md-4.color-tab.fondo(titulo="Pruebas exploratorias")
+        .row.align-items-center.justify-content-center
+          .col-lg-5
+            h3 Pruebas exploratorias
+            p El <i>testing</i>exploratorio se define como el aprendizaje, el diseño de casos de prueba y la ejecución de las pruebas en forma simultánea. En otras palabras, es una técnica de prueba en la cual quien prueba controla activamente el diseño mientras son realizadas, y utiliza la información obtenida en la exploración para diseñar nuevas y mejores pruebas.
+          .col-lg-5
+            figure
+              img.mx-5(src='@/assets/curso/images/tema1/img_60.svg' alt='')
+      .py-3.py-md-4.color-tab.fondo(titulo='Pruebas de usabilidad')
+        .row.align-items-center.justify-content-center
+          .col-lg-5
+            h3 Pruebas de usabilidad
+            p.mb-3  El diseño no es solo como se ve y como se siente. El diseño es cómo funciona, y para conocer cómo funciona se debe de tener el conocimiento de usabilidad, por lo tanto, es un método para evaluar la experiencia del usuario de una aplicación o producto <i>software</i>. Cuando se prueba la usabilidad con un conjunto representativo de clientes o usuarios, los evaluadores de la experiencia de usuario saben por ejemplo si los usuarios reales pueden usar la aplicación o el producto <i>software</i> de forma sencilla e intuitiva.
+
+            La usabilidad es una parte crítica del proceso de desarrollo <i>software</i>, debido a su naturaleza iterativa. Una evaluación de usabilidad es la mejor manera de poner un producto en manos de usuarios reales para ver si lo usan y cómo lo usan antes del lanzamiento del producto.
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/images/tema1/img_62.svg' alt='')
+      .py-3.py-md-4.color-tab.fondo(titulo='Pruebas de aceptación')
+        .row.align-items-center.justify-content-center.p-4
+          h3 Pruebas de aceptación
+          p.mb-3 Estas pruebas se realizan asignando a los usuarios unas tareas muy específicas con pasos a seguir para comprobar la funcionalidad de un sistema, es decir, identificar los bugs, que posteriormente los desarrolladores deben trabajar para solucionarlos. 
+          .col-lg-7
+            
+            p.mb-3 Durante las pruebas de aceptación de usuario, el usuario solicita un producto de <i>software</i> para asegurarse de que cumple con sus requerimientos, satisface sus expectativas y que su resultado es factible, es decir, que el <i>software</i> le permita realizar su trabajo.
+
+            p La UAT se centra en el usuario debido a la colaboración entre el equipo de desarrollo y los usuarios finales al momento de detallar los criterios de aceptación para cada historia de usuario desarrollada. En este sentido los desarrolladores o el equipo de desarrollo los utiliza con el propósito de diseñar casos de prueba automatizados que se ejecutan cada vez que se realiza una compilación de integración.
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/images/tema1/img_63.svg' alt='')
+      
+    h3.mb-3 Pruebas desempeño, carga y seguridad
+
+    p.mb-5 Es un momento exitoso cuando se finaliza la programación de una aplicación, lo cual, al transcurrir el tiempo, tener un producto terminado es un logro importante. No obstante, es momento también de probar varios aspectos del <i>software</i>, para asegurar su funcionamiento y controlar su calidad. Desempeño, seguridad y carga son factores importantes que se deben revisar con todo el producto <i>software</i> que se desarrolle, a continuación se describe cada uno: 
+    
+
+    TabsC.color-acento-contenido.mb-5
+      .py-3.py-md-4.color-tab.fondo-5(titulo="Pruebas de desempeño")
+        .row.align-items-center.justify-content-center
+          .col-lg-8
+            h3 Pruebas de desempeño
+            p Las pruebas de desempeño permiten determinar el comportamiento de un sistema en términos de estabilidad y respuesta con respecto a un escenario en particular, referente a la carga de trabajo, concurrencia, ancho de banda, características particulares de equipos o servidores, como Ram, CPU. También permiten identificar, medir, investigar, validar o verificar otros aspectos de calidad, tales como la seguridad, escalabilidad y el consumo de recursos. Estas pruebas constituyen unos estándares de ejecución en la implementación, diseño y arquitectura de un producto <i>software</i>. Por lo tanto, una de las pruebas de desempeño esenciales es la prueba de carga que se menciona a continuación. 
+          .col-lg-3
+            figure
+              img(src='@/assets/curso/images/tema1/img_64.svg' alt='')
+      .py-3.py-md-4.color-tab.fondo-5(titulo='Pruebas de carga')
+        .row.align-items-center.justify-content-center
+          .col-lg-8
+            h3 Pruebas de carga
+            p.mb-3  Las pruebas de carga se centran en determinar o validar las características de rendimiento del sistema o la aplicación sometida a un test cuando se enfrenta a diferentes volúmenes de cargas de trabajo prevista durante las operaciones de producción (Meier, y otros, 2007). 
+          .col-lg-3
+            figure
+              img(src='@/assets/curso/images/tema1/img_65.svg' alt='')
+      .py-3.py-md-4.color-tab.fondo-5(titulo='Pruebas de seguridad')
+        .row.align-items-center.justify-content-center.p-4
+          .col-lg-8
+            h3 Pruebas de seguridad
+            p.mb-3 Las pruebas de seguridad son la serie de actividades que son ejecutadas para encontrar fallas y vulnerabilidades, con la finalidad de minimizar el impacto de ataques, acceso a información susceptible y la pérdida de información. 
+
+            p.mb-3 Estas pruebas son primordiales dado que los productos <i>software</i> deben asegurar siempre la confidencialidad, disponibilidad e integridad de los datos y funcionalidades que maneja el producto y es importante denotar lo crítico que sería la pérdida o corrupción de esta información en el contexto empresarial. Estas pruebas deben ir de la mano y ejecución en todas las fases del proyecto. 
+          .col-lg-3
+            figure
+              img(src='@/assets/curso/images/tema1/img_66.svg' alt='')
+
+        p.mb-5.text-center Para ilustrar mejor el concepto de las pruebas de carga se presenta el siguiente video tutorial:
+        .row.align-items-center.justify-content-center
+          .col-lg-8
+            figure.mb-5
+              .video
+                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+        p.mb-5.text-center A continuación, se presenta el siguiente video tutorial de instalación del <i>software</i> OWASP para realizar una prueba de seguridad:
+        .row.align-items-center.justify-content-center
+          .col-lg-8
+            figure.mb-5
+              .video
+                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    h3.mb-3 Elaboración de informe de resultados
+
+    p.mb-5 Una vez ejecutadas las pruebas se deben analizar los resultados y los fallos detectados, teniendo en cuenta el reporte de defectos, directrices para detectarlos y el informe de resultados de pruebas. Para ello se puede realizar lo descrito a continuación:
+
+    .row.justify-content-center.mb-5
+        .col-lg-3.tarjeta.fblue-1.boxShadow.mx-3
+          .p-4
+            figure
+              img(src='@/assets/curso/images/tema1/img_67.svg', alt='imagen relacionada').mb-4
+            p.text-center Analizar el impacto del defecto.
+        .col-lg-3.tarjeta.fblue-2.boxShadow.mx-3.d-flex
+          .p-4
+            figure
+              img(src='@/assets/curso/images/tema1/img_68.svg', alt='imagen relacionada').mb-4
+            p.text-center Investigar el problema, en qué condiciones se produce este fallo.
+        .col-lg-3.tarjeta.fblue-1.boxShadow.mx-3.d-flex
+          .p-4
+            figure
+              img(src='@/assets/curso/images/tema1/img_69.svg', alt='imagen relacionada').mb-4
+            p.text-center Analizar la severidad, si es alta o baja.
+    .row.justify-content-center
+        .col-lg-3.tarjeta.fblue-1.boxShadow.mx-3.d-flex
+          .p-4
+            figure
+              img(src='@/assets/curso/images/tema1/img_70.svg', alt='imagen relacionada').mb-4
+            p.text-center Variar los pasos realizados, se pueden ejecutar en orden diferente para observar si existe alguna variante en el resultado esperado.
+        .col-lg-3.tarjeta.fblue-2.boxShadow.mx-3
+          .p-4
+            figure
+              img(src='@/assets/curso/images/tema1/img_71.svg', alt='imagen relacionada').mb-4
+            p.text-center Variar opciones de configuración, si estamos probando una aplicación <i>web</i> se puede probar con diferentes navegadores.
+        .col-lg-3.tarjeta.fblue-1.boxShadow.mx-3
+          .p-4
+            figure
+              img(src='@/assets/curso/images/tema1/img_72.svg', alt='imagen relacionada').mb-4
+            p.text-center Determinar condiciones específicas bajo las cuales se reproduce el defecto, si estamos probando entradas de datos entonces probar con diferentes datos.   
+
+    p.mt-5.mb-5 El informe de resultados incluye la detección de incidencias o errores de <i>software</i>, puesto que es aquí donde se evalúan y corrigen problemas, por lo tanto, a continuación, se describe la gestión de incidencias y su ciclo de vida.
+
+    .row.align-items-end.justify-content-center.mb-5.fondo-6
+      .col-lg-6.ofVisible
+        h3 Incidencias detectadas
+        p.mb-5 La gestión de incidencias es un elemento central e importante en el proceso de calidad de <i>software</i> puesto que es en este punto donde se tienen en cuenta los errores (bugs). Por lo tanto, el propósito de las incidencias detectadas es precisamente generar su corrección, de tal manera que sea mínimamente probable que el error se repita. 
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/images/tema1/img_73.svg' alt='imagen relacionada')
+
+    h3.mb-3 Ciclo de vida de una incidencia
+
+    p.mb-5 Un sistema de gestión de incidentes debe manejar los errores de <i>software</i> teniendo en cuenta el siguiente proceso:
+
+    ImagenInfograficaB.color-primario.mb-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/images/tema1/img_74.svg', alt='Texto que describa la imagen')
+
+      div(x="7%" y="52%" tooltip="Nuevo" numero="1")
+        p  Durante las pruebas de <i>software</i> los errores de <i>software</i> deben ser identificados y registrados por el tester de <i>software</i> siendo ese instante donde se reporta el error.
+      div(x="22%" y="52%" tooltip="Abierto" numero="2")
+        p El equipo de desarrollo adquiere el incidente y empieza a analizarlo.
+      div(x="37%" y="52%" tooltip="Asignado" numero="3")
+        p El incidente es asignado al desarrollador.
+      div(x="20%" y="31%" tooltip="Rechazado" numero="4")
+        p No aplica.
+      div(x="53%" y="31%" tooltip="Diferido" numero="5")
+        p Si el incidente aplica y es de bajo impacto.
+      div(x="35%" y="79%" tooltip="Reabierto" numero="6")
+        p Cuando el incidente es corregido y es retornado al equipo de <i>testers</i> de <i>software.</i>
+      div(x="67%" y="52%" tooltip="Verificado" numero="7")
+        p Si la prueba es positiva.
+      div(x="82%" y="52%" tooltip="Cerrado" numero="8")
+        p Posterior a una verificación por parte del equipo de <i>testing.</i>
+
+    p.mb-3 El anterior proceso se adapta a proyectos de <i>software</i> en fase de desarrollo, mas no en ambiente de producción. 
+
+    h3.mb-3 Redacción del reporte de incidencias
+
+    p.mb-3 El propósito del informe de incidentes es documentar cada incidente, por lo tanto, se debe seguir un procedimiento para gestionar de forma sistémica y ordenada las incidencias de producto halladas a lo largo de la ejecución de los casos de prueba. Este procedimiento tiene las siguientes actividades:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-8.mb-5.mb-lg-0
+          hr
+          .row.align-items-center.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/images/tema1/ico_6.svg' alt="", style="width:40px; display:block; margin:auto 0;")
+            .col
+              p.mb-0 Verificar con las áreas correspondientes las incidencias.
+          hr
+          .row.align-items-center.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/images/tema1/ico_7.svg' alt="", style="width:40px; display:block; margin:auto 0;")
+            .col
+              p.mb-0 Verificar que el estado de las incidencias esté actualizado.
+          hr
+          .row.align-items-center.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/images/tema1/ico_8.svg' alt="", style="width:40px; display:block; margin:auto 0;")
+            .col
+              p.mb-0 Realizar repruebas y regresión, es decir, generar otra vez la ejecución de los casos de prueba necesarios.
+          hr
+      .col-12.col-lg-4.mb-5.mb-lg-0
+        img(src='@/assets/curso/images/tema1/img_75.svg' alt="")
+
+    .row.align-items-center.justify-content-center.mb-5
+      .col-lg-auto(style='z-index:1')
+        figure
+          img(src='@/assets/curso/images/tema1/img_59.svg' alt='Atención' style='height:260px')
+      .col-lg-6
+        .p-4(style='background-color:rgba(77,208,225,.2);padding-left:50px !important;margin-left:-50px')
+          p.mb-0 Por otra parte, para estructurar el informe de incidentes se requiere tener en cuenta los siguientes puntos:
+
+          P <b>Identificador.</b>
+          p Resumen y descripción del incidente.
+          p Descripción de datos (fecha/hora, entradas, resultados esperados).
+          p Impacto que los incidentes tendrán con respecto a las pruebas.
+
+    h3.mb-3 Reporte de defectos
+
+    p.mb-3 Cuando se está seguro de que existe un defecto, es decir, cuando están confirmados, se procede a redactar un reporte de defectos, el cual contiene los fallos detectados a lo largo del esfuerzo de pruebas. También hay que tener en cuenta que cada defecto detectado requiere de un reporte de defectos lo que facilita la trazabilidad y su posterior corrección.
+    p.mb-3 A continuación, se presenta la estructura de un reporte de defectos.
+
+    .jumbotron-11.p-4.mb-5
+      .row.justify-content-center
+        .col-lg-12
+          img.my-3(src="@/assets/curso/images/tema1/img_77.svg", alt="")  
+
+    h3.mb-3 Informe de resultados de pruebas
+
+    p.mb-5 El informe de resultados de pruebas presenta y ordena un análisis sintético de los resultados de las pruebas y las medidas principales de prueba para la evaluación y verificación, por lo tanto, este documento es responsabilidad del gerente de pruebas. Este informe debe contener los siguientes puntos:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-8.mb-5.mb-lg-0
+          hr
+          .row.align-items-center.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/images/tema1/ico_6.svg' alt="", style="width:40px; display:block; margin:auto 0;")
+            .col
+              p.mb-0 Alcance de las pruebas, es decir, lo que es necesario incluir y no incluir.
+          hr
+          .row.align-items-center.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/images/tema1/ico_7.svg' alt="", style="width:40px; display:block; margin:auto 0;")
+            .col
+              p.mb-3 Resumen de pruebas:
+              p ● Casos de prueba planificados
+              p ● Casos de prueba ejecutados
+              p ● Casos de prueba exitosos
+              p ● Casos de prueba fallidos
+              p ● Casos de prueba bloqueados
+          hr
+          .row.align-items-center.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/images/tema1/ico_8.svg' alt="", style="width:40px; display:block; margin:auto 0;")
+            .col
+              p.mb-0 Listado de defectos detectados.
+          hr
+          .row.align-items-center.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/images/tema1/ico_9.svg' alt="", style="width:40px; display:block; margin:auto 0;")
+            .col
+              p.mb-0 Conclusiones.
+          hr
+      .col-12.col-lg-4.mb-5.mb-lg-0
+        img(src='@/assets/curso/images/tema1/img_78.svg' alt="")
 
 
 
