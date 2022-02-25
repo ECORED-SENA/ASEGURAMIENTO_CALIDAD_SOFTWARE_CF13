@@ -5,21 +5,21 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1  Realización de pruebas de software
+      h1  Realización de pruebas de <i>software</i>
  
     .col-lg-12.mb-3
       img(src="@/assets/curso/images/tema1/img_1.png", alt= "")
 
-    p.mb-3 En este punto para realizar las pruebas de software se debe establecer qué tipos de pruebas serán requeridas por el producto, puesto que para probar un producto no se requiere utilizar todos los tipos de prueba que existen sino más bien los que sean necesarios para cada caso, por esta razón, es importante que el QA o líder de pruebas determine qué tipos de prueba se adaptan al proyecto en evaluación. En el plan de pruebas se deben listar los tipos de pruebas a realizar, por lo que a continuación se especifican y describen los tipos de pruebas que se pueden utilizar.
+    p.mb-3 En este punto para realizar las pruebas de <i>software</i> se debe establecer qué tipos de pruebas serán requeridas por el producto, puesto que para probar un producto no se requiere utilizar todos los tipos de prueba que existen sino más bien los que sean necesarios para cada caso, por esta razón, es importante que el QA o líder de pruebas determine qué tipos de prueba se adaptan al proyecto en evaluación. En el plan de pruebas se deben listar los tipos de pruebas a realizar, por lo que a continuación se especifican y describen los tipos de pruebas que se pueden utilizar.
 
     Separador 
    
     #t_1_1.titulo-segundo
       h2 1.1  Tipos de pruebas
-
+    
     .row.align-items-end.justify-content-center.mb-5.fondo-7
       .col-lg-8.ofVisible
-        p.mb-5 Las pruebas de software se pueden clasificar en dos tipos principales: pruebas funcionales y pruebas no funcionales. Teniendo en cuenta los diferentes frentes y aspectos de un producto software, con lo cual se requerirán diferentes tipos de pruebas, tales como: pruebas unitarias, pruebas de integración, pruebas de estrés, pruebas de rendimiento, pruebas de escalabilidad, entre otras. Cada uno de estos tipos de pruebas de software determinan la visibilidad de la aplicación, desde el código fuente hasta la interacción y experiencia con el usuario. Entrando en detalles, a continuación se invita a observar el siguiente video donde podrá identificar los tipos de pruebas de software.
+        p.mb-5 Las pruebas de <i>software</i> se pueden clasificar en dos tipos principales: pruebas funcionales y pruebas no funcionales. Teniendo en cuenta los diferentes frentes y aspectos de un producto <i>software</i>, con lo cual se requerirán diferentes tipos de pruebas, tales como: pruebas unitarias, pruebas de integración, pruebas de estrés, pruebas de rendimiento, pruebas de escalabilidad, entre otras. Cada uno de estos tipos de pruebas de <i>software</i> determinan la visibilidad de la aplicación, desde el código fuente hasta la interacción y experiencia con el usuario. Entrando en detalles, a continuación se invita a observar el siguiente video donde podrá identificar los tipos de pruebas de <i>software</i>.
       .col-lg-4.lg-0
         figure
           img(src='@/assets/curso/images/tema1/img_2.svg' alt='imagen relacionada')
@@ -35,7 +35,7 @@
 
     h3 Pruebas funcionales
 
-    p.mb-3 Se llevan a cabo para verificar las características esenciales para el negocio, la funcionalidad y la usabilidad. Estas garantizan que las características y funciones del software operan y se comportan según lo esperado sin problemas. Valida toda la aplicación respecto a las especificaciones definidas en el documento de requisitos de software (SRS). En estas pruebas se incluyen las pruebas unitarias, pruebas de regresión, pruebas de interfaz, entre otras. 
+    p.mb-3 Se llevan a cabo para verificar las características esenciales para el negocio, la funcionalidad y la usabilidad. Estas garantizan que las características y funciones del <i>software</i> operan y se comportan según lo esperado sin problemas. Valida toda la aplicación respecto a las especificaciones definidas en el documento de requisitos de <i>software</i> (SRS). En estas pruebas se incluyen las pruebas unitarias, pruebas de regresión, pruebas de interfaz, entre otras. 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-5.mb-lg-0
@@ -51,7 +51,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        p.mb-3  Estas pruebas se enfocan en validar elementos como componentes/unidades/piezas de forma individual e independiente de un producto software dado el principio SDLC. Cualquier bloque de código sea procedimiento, función, método, constructor, clase o módulo, puede ser una unidad y deberá ser considerado y sometido a pruebas unitarias, con lo cual se podrá determinar su comportamiento y validarlo versus el resultado esperado. Estas pruebas deben ser las primeras que se lleven a cabo en la fase de desarrollo y las deberán implementar los desarrolladores.
+        p.mb-3  Estas pruebas se enfocan en validar elementos como componentes/unidades/piezas de forma individual e independiente de un producto <i>software</i> dado el principio SDLC. Cualquier bloque de código sea procedimiento, función, método, constructor, clase o módulo, puede ser una unidad y deberá ser considerado y sometido a pruebas unitarias, con lo cual se podrá determinar su comportamiento y validarlo versus el resultado esperado. Estas pruebas deben ser las primeras que se lleven a cabo en la fase de desarrollo y las deberán implementar los desarrolladores.
         .cajon.color-custom-2.p-4.mb-3
           p.mb-3 De acuerdo a Mera (2016) también se las conoce como unit testing son pequeños tests en los cuales se revisa que el comportamiento de un objeto y su lógica funcione adecuadamente.
       .col-lg-4.mb-5.mb-lg-0
@@ -135,7 +135,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-7.mb-5.mb-lg-0
         h3 Pruebas de integración
-        p.mb-3 Estas pruebas se enfocan en validar diferentes módulos o componentes de un producto software de tal manera que se valide como un grupo funcional. Una aplicación de software, un sistema de información o una aplicación web, entre otros productos software  están compuestos por diferentes componentes, módulos y submódulos distribuidos en diferentes niveles y capas, que trabajan juntos y se orquestan en diferentes funcionalidades. La finalidad de estas pruebas es validar que la integración entre estos componentes sea correcta y encontrar posibles problemas o errores relacionados con la sinergia y comunicación entre ellos.
+        p.mb-3 Estas pruebas se enfocan en validar diferentes módulos o componentes de un producto <i>software</i> de tal manera que se valide como un grupo funcional. Una aplicación de <i>software</i>, un sistema de información o una aplicación <i>web</i>, entre otros productos <i>software</i>  están compuestos por diferentes componentes, módulos y submódulos distribuidos en diferentes niveles y capas, que trabajan juntos y se orquestan en diferentes funcionalidades. La finalidad de estas pruebas es validar que la integración entre estos componentes sea correcta y encontrar posibles problemas o errores relacionados con la sinergia y comunicación entre ellos.
       .col-lg-5.mb-5.mb-lg-0 
         img.my-3(src="@/assets/curso/images/tema1/img_6.svg", alt="")
 
@@ -190,12 +190,12 @@
           .col-auto.ms-5
             img(src='@/assets/curso/images/tema1/comilla1.svg' alt='"' style='width:73px;margin-top:-10px;')
           .col-11.mx-auto.p-5
-            p.text-white En este tipo de pruebas se comprueban los requisitos basados en la operación de un software. Para verificar la carga que resiste el producto software, identificando si su rendimiento es el adecuado o si es estable a nivel de contacto con el servidor. 
+            p.text-white En este tipo de pruebas se comprueban los requisitos basados en la operación de un <i>software</i>. Para verificar la carga que resiste el producto <i>software</i>, identificando si su rendimiento es el adecuado o si es estable a nivel de contacto con el servidor. 
             h6.text-right.fRight.mb-5 <span class='text-white'>(Mera  (2016) ).</span> <i class='fas fa-square cac'></i>
       .col-lg-4.mb-5.mb-lg-0 
         img.my-3(src="@/assets/curso/images/tema1/img_8.svg", alt="")
 
-    p.mb-5 Hay algunos aspectos que pueden ser complejos, como el rendimiento de una aplicación, sin embargo, esta prueba permite comprobar la calidad del software que se va a probar. La calidad depende principalmente del tiempo, la precisión, la estabilidad, la corrección y la durabilidad de un producto en diversas circunstancias adversas. Con base en estos aspectos de calidad podemos estudiar diferentes tipos de pruebas no funcionales:
+    p.mb-5 Hay algunos aspectos que pueden ser complejos, como el rendimiento de una aplicación, sin embargo, esta prueba permite comprobar la calidad del <i>software</i> que se va a probar. La calidad depende principalmente del tiempo, la precisión, la estabilidad, la corrección y la durabilidad de un producto en diversas circunstancias adversas. Con base en estos aspectos de calidad podemos estudiar diferentes tipos de pruebas no funcionales:
 
     .col-lg-10.mx-auto.mb-5
       LineaTiempoD.color-secundario.especial
@@ -216,10 +216,10 @@
               figure
                 img(src='@/assets/curso/images/tema1/img_10.svg' alt='')
 
-        .p-4(titulo='Pruebas de estrés (Stress test)' numero='3')
+        .p-4(titulo='Pruebas de estrés (<i>Stress test</i>)' numero='3')
           .row.align-items-center
             .col-lg-8
-              h3.mb-3 Pruebas de estrés (Stress test)
+              h3.mb-3 Pruebas de estrés (<i>Stress test</i>)
               p Nos permite saber cuántos usuarios o peticiones puede soportar el programa, con esta prueba se determina si el sistema es estable. 
             .col-lg-4
               figure
@@ -247,14 +247,14 @@
           .row.align-items-center
             .col-lg-8
               h3.mb-3 Pruebas de robustez
-              p Son las encargadas de verificar la capacidad del programa para soportar entradas o instrucciones incorrectas. Una de sus características principales es implementar mecanismos de software de detección de errores en el hardware.
+              p Son las encargadas de verificar la capacidad del programa para soportar entradas o instrucciones incorrectas. Una de sus características principales es implementar mecanismos de <i>software</i> de detección de errores en el hardware.
             .col-lg-4
               figure
                 img(src='@/assets/curso/images/tema1/img_14.svg' alt='')
 
     h3.mb-3 Pruebas de rendimiento
 
-    p.mb-3 Son un tipo de pruebas no funcionales, las cuales se realizan con la finalidad de determinar la estabilidad, escalabilidad y velocidad de una funcionalidad en el producto software. El objetivo de este tipo de pruebas es verificar el comportamiento de la aplicación teniendo en cuenta diferentes puntos de referencia del sistema y de la red, tales como la CPU, la velocidad de renderizado o carga de la página, el control de tráfico, la concurrencia, consumo de recursos de servidor, entre otros. En esta categoría podemos encontrar las pruebas de carga y de esfuerzo. 
+    p.mb-3 Son un tipo de pruebas no funcionales, las cuales se realizan con la finalidad de determinar la estabilidad, escalabilidad y velocidad de una funcionalidad en el producto <i>software</i>. El objetivo de este tipo de pruebas es verificar el comportamiento de la aplicación teniendo en cuenta diferentes puntos de referencia del sistema y de la red, tales como la CPU, la velocidad de renderizado o carga de la página, el control de tráfico, la concurrencia, consumo de recursos de servidor, entre otros. En esta categoría podemos encontrar las pruebas de carga y de esfuerzo. 
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -286,7 +286,7 @@
             .col-auto
               img(src='@/assets/curso/images/tema1/ico_2.svg' alt="", style="width:40px; display:block; margin:auto 0;")
             .col
-              p.mb-0 Verificar el cumplimiento de los SLA (Acuerdos de Nivel de Servicio). Se utiliza para medir los tiempos de respuesta del software en condiciones y tiempos específicos.
+              p.mb-0 Verificar el cumplimiento de los SLA (Acuerdos de Nivel de Servicio). Se utiliza para medir los tiempos de respuesta del <i>software</i> en condiciones y tiempos específicos.
           hr
           .row.align-items-center.justify-content-center.mb-3
             .col-auto
@@ -294,15 +294,16 @@
             .col
               p.mb-0 Localizar cuellos de botella. Ayudar a detallar en qué lugar se generan estos cuellos de botellas si se debe a problemas de hardware como CPU, memoria, o es el ancho de banda.
           hr
+
     h3.mb-3 Ventajas y desventajas de los tipos de pruebas
 
-    p.mb-3 Aplicar los tipos de pruebas puede asegurar que el software funcione como se espera en todo momento y garantizar su calidad, por lo tanto, es necesario para su aplicación, identificar sus ventajas y desventajas para determinar las diferencias entre cada tipo; se puede observar en el siguiente recurso las ventajas de estos tipos de pruebas.
+    p.mb-3 Aplicar los tipos de pruebas puede asegurar que el <i>software</i> funcione como se espera en todo momento y garantizar su calidad, por lo tanto, es necesario para su aplicación, identificar sus ventajas y desventajas para determinar las diferencias entre cada tipo; se puede observar en el siguiente recurso las ventajas de estos tipos de pruebas.
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       div(titulo="Tipo 1. Pruebas de rendimiento")
         .row.align-items-center.justify-content-center.p-4
           .col-lg-10
-            p.mb-3 Entre los aspectos denominados negativos en la experiencia con páginas web, están:
+            p.mb-3 Entre los aspectos denominados negativos en la experiencia con páginas <i>web</i>, están:
 
               ul.lista-ul
                 li 
@@ -319,7 +320,7 @@
                   | Mejoras de características y optimización del sistema.
                 li 
                   i.fas.fa-angle-right
-                  | Garantiza la fiabilidad de la aplicación web bajo una gran carga.
+                  | Garantiza la fiabilidad de la aplicación <i>web</i> bajo una gran carga.
         .row.align-items-center.justify-content-center
           .col-lg-8
             figure  
@@ -384,14 +385,14 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-7.mb-5.mb-lg-0
         h3 Desventajas de los tipos de pruebas
-        p.mb-3 Todos los tipos de pruebas mejoran la experiencia del usuario, las funcionalidades y garantizan la calidad, es decir, no hay desventajas sino más bien ventajas, por lo tanto, lo que sí se podría establecer como desventaja sería el tiempo y el costo relacionado con la prueba de software. Realizar pruebas requiere de recursos y esfuerzos, y se puede dar un riesgo asociado con resultados inexactos. No obstante, el no realizar pruebas a las aplicaciones podría traer problemas al producto.
+        p.mb-3 Todos los tipos de pruebas mejoran la experiencia del usuario, las funcionalidades y garantizan la calidad, es decir, no hay desventajas sino más bien ventajas, por lo tanto, lo que sí se podría establecer como desventaja sería el tiempo y el costo relacionado con la prueba de <i>software</i>. Realizar pruebas requiere de recursos y esfuerzos, y se puede dar un riesgo asociado con resultados inexactos. No obstante, el no realizar pruebas a las aplicaciones podría traer problemas al producto.
       .col-lg-5.mb-5.mb-lg-0 
         img.my-3(src="@/assets/curso/images/tema1/img_20.svg", alt="")
 
     h3.mb-3 Documentos de caso de pruebas
     
-    p.mb-3 Los productos que resultan del proceso de desarrollo de software son identificados como artefactos, por ejemplo, el código fuente, defectos, plan, casos y script de pruebas.
-    p.mb-5 El aseguramiento de la calidad de software se compone de artefactos específicos que se forman en las diversas etapas del proceso de SQA, como se muestra en la siguiente infografía. 
+    p.mb-3 Los productos que resultan del proceso de desarrollo de <i>software</i> son identificados como artefactos, por ejemplo, el código fuente, defectos, plan, casos y script de pruebas.
+    p.mb-5 El aseguramiento de la calidad de <i>software</i> se compone de artefactos específicos que se forman en las diversas etapas del proceso de SQA, como se muestra en la siguiente infografía. 
     
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-8.mb-5.mb-lg-0
@@ -403,7 +404,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-6.mb-5.mb-lg-0
             img.my-3(src="@/assets/curso/images/tema1/img_22.svg", alt="")
-        p.mb-3  En el diseño de las pruebas de software se deben identificar y describir casos de prueba, por lo tanto para documentar un caso de pruebas se debe comprender que este contiene un conjunto de variables o condiciones en la cual un tester determina si un sistema funciona según lo esperado, así mismo cabe resaltar que la documentación de un caso de prueba se convierte en una actividad sin dificultad, si tenemos la información necesaria para su proceso de elaboración, teniendo en cuenta que al momento de probar un software es de gran aporte, puesto que se transforma en una herramienta esencial en el proceso de registro, seguimiento y control.
+        p.mb-3  En el diseño de las pruebas de <i>software</i> se deben identificar y describir casos de prueba, por lo tanto para documentar un caso de pruebas se debe comprender que este contiene un conjunto de variables o condiciones en la cual un tester determina si un sistema funciona según lo esperado, así mismo cabe resaltar que la documentación de un caso de prueba se convierte en una actividad sin dificultad, si tenemos la información necesaria para su proceso de elaboración, teniendo en cuenta que al momento de probar un <i>software</i> es de gran aporte, puesto que se transforma en una herramienta esencial en el proceso de registro, seguimiento y control.
 
     p.text-center A continuación, se nombran los elementos principales que debe contener un caso de prueba.
 
@@ -418,31 +419,31 @@
             h5.mb-0 Caso de prueba
           table
             tr
-              td Elementos de un caso de prueba
+              td Identificador
               td Puede ser alfanumérico o numérico
             tr
-              td Elementos de un caso de prueba
+              td Nombre
               td Nombre del caso de prueba de manera concisa 
             tr
-              td Elementos de un caso de prueba
+              td Descripción 
               td Objetivo del caso de prueba, también describe que probará, en ciertas ocasiones se incluye el ambiente de pruebas.
             tr
-              td Elementos de un caso de prueba
+              td Número de orden de ejecución 
               td Orden en la cual se ejecuta el caso de prueba, en la situación de que se tengan múltiples casos de prueba.
             tr
-              td Elementos de un caso de prueba
+              td Requerimiento asociado
               td Si se plantea un caso de prueba se debe saber a qué requerimiento va asociado para mantener la trazabilidad
             tr
-              td Elementos de un caso de prueba
+              td Precondición
               td Estado en la cual se debe encontrar el sistema antes de comenzar la pruebe
             tr
-              td Elementos de un caso de prueba
+              td Postcondición
               td El estado en que debe encontrarse el sistema luego de ejecutar la prueba
             tr
-              td Elementos de un caso de prueba
+              td Resultado esperado
               td Objetivo que debe ser alcanzado posterior a ejecutarse la prueba.
       
-      p.mb-5 Identificar, describir y documentar casos de pruebas facilita el trabajo cuando se requiere evaluar y comparar las modificaciones a los requerimientos que inicialmente ha definido el cliente a lo largo del tiempo, este seguimiento permite comprobar que los resultados obtenidos están acordes con lo requerido o solicitado, logrando así la satisfacción del cliente, lo que los define como un aliado principal al momento de garantizar la calidad del software.
+      p.mb-5 Identificar, describir y documentar casos de pruebas facilita el trabajo cuando se requiere evaluar y comparar las modificaciones a los requerimientos que inicialmente ha definido el cliente a lo largo del tiempo, este seguimiento permite comprobar que los resultados obtenidos están acordes con lo requerido o solicitado, logrando así la satisfacción del cliente, lo que los define como un aliado principal al momento de garantizar la calidad del <i>software</i>.
     
 
     .row.justify-content-center.align-items-center.mb-5
@@ -457,7 +458,7 @@
               span <i>Elementos de un caso de prueba</i>
         img.my-3(src="@/assets/curso/images/tema1/img_23.svg", alt="")
 
-    p.mb-5 El diagrama de actividades anterior expresa el flujo que se debe tener en cuenta al momento de ejecutar las pruebas de software, es por eso que a continuación se describen cada una de las actividades.
+    p.mb-5 El diagrama de actividades anterior expresa el flujo que se debe tener en cuenta al momento de ejecutar las pruebas de <i>software</i>, es por eso que a continuación se describen cada una de las actividades.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10.mb-5.mb-lg-0.fondo
@@ -503,7 +504,7 @@
     #t_1_1.titulo-segundo
       h2 1.2 Agile testing
     
-    p.mb-5 Las metodologías ágiles proveen un conjunto de pautas y principios que buscan facilitar y priorizar la entrega de producto sobre procesos de documentación exhaustiva, haciéndolos más simples, donde interactúa el cliente final desde las primeras etapas del proyecto, lo cual es de resaltar que una metodología ágil tiene iteraciones o sprints, cada sprint tiene una duración que no es muy extensa, aproximadamente dos a cuatro semanas y así mismo, cuando se finaliza la iteración, es en este momento donde ya existen funcionalidades del software que pueden ser utilizadas por el cliente.
+    p.mb-5 Las metodologías ágiles proveen un conjunto de pautas y principios que buscan facilitar y priorizar la entrega de producto sobre procesos de documentación exhaustiva, haciéndolos más simples, donde interactúa el cliente final desde las primeras etapas del proyecto, lo cual es de resaltar que una metodología ágil tiene iteraciones o sprints, cada sprint tiene una duración que no es muy extensa, aproximadamente dos a cuatro semanas y así mismo, cuando se finaliza la iteración, es en este momento donde ya existen funcionalidades del <i>software</i> que pueden ser utilizadas por el cliente.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-5.mb-5.mb-lg-0
@@ -516,15 +517,15 @@
               span <i>Actividades sprints release </i>
         img.my-3(src="@/assets/curso/images/tema1/img_24.svg", alt="")
 
-    p.mb-3 Por otro lado, también se debe tener en cuenta que la metodología de desarrollo de software tradicional en cascada utiliza diferentes tipos de pruebas de software que probaran tanto requerimientos funcionales como no funcionales de manera secuencial. No obstante, en metodologías ágiles, específicamente en las pruebas ágiles, también se consideran varios tipos de pruebas, pero teniendo en cuenta que se utilizan sprints o interacciones cortas e interacciones continúas entre los equipos de desarrollo, diseño y pruebas. 
+    p.mb-3 Por otro lado, también se debe tener en cuenta que la metodología de desarrollo de <i>software</i> tradicional en cascada utiliza diferentes tipos de pruebas de <i>software</i> que probaran tanto requerimientos funcionales como no funcionales de manera secuencial. No obstante, en metodologías ágiles, específicamente en las pruebas ágiles, también se consideran varios tipos de pruebas, pero teniendo en cuenta que se utilizan sprints o interacciones cortas e interacciones continúas entre los equipos de desarrollo, diseño y pruebas. 
 
-    p.mb-5 Las pruebas ágiles contienen principios que se aplican al desarrollo ágil de software, así mismo existen ciertos cuadrantes que se pueden tener en cuenta al momento de planificarlas, lo cual a continuación se describen tanto los principios como los cuadrantes: 
+    p.mb-5 Las pruebas ágiles contienen principios que se aplican al desarrollo ágil de <i>software</i>, así mismo existen ciertos cuadrantes que se pueden tener en cuenta al momento de planificarlas, lo cual a continuación se describen tanto los principios como los cuadrantes: 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10.mb-5.mb-lg-0
-        h3.mb-3 Principios de las pruebas ágiles (Agile testing)
+        h3.mb-3 Principios de las pruebas ágiles (<i>Agile testing</i>)
 
-        p.mb-5 El Agile testing contiene los siguientes principios que son aplicados a un buen desarrollo de software:
+        p.mb-5 El <i>Agile testing</i> contiene los siguientes principios que son aplicados a un buen desarrollo de <i>software</i>:
 
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4.fondo(titulo="Integración continua")
@@ -547,7 +548,7 @@
         .row.align-items-center.justify-content-center
           .col-lg-5
             h3 Elaborar menos documentación 
-            p Los participantes de los equipos en metodologías ágiles pueden crear listas y tomar notas para centrarse en probar el software, lo que permite no enfocarse en detalles secundarios que tomarían mucho tiempo. 
+            p Los participantes de los equipos en metodologías ágiles pueden crear listas y tomar notas para centrarse en probar el <i>software</i>, lo que permite no enfocarse en detalles secundarios que tomarían mucho tiempo. 
           .col-lg-5
             figure
               img(src='@/assets/curso/images/tema1/img_27.png' alt='')
@@ -569,8 +570,8 @@
                 img.mx-5(src='@/assets/curso/images/tema1/img_29.png' alt='')
               
     h3.mb-3 Cuadrantes de las pruebas ágiles (<i>Agile testing</i>)
-    p.mb-3 Para planificar las pruebas ágiles nos podemos basar en los cuadrantes del agile testing, que nos aporta una biblioteca de tipos de pruebas que se pueden usar para cumplir con los requerimientos.
-    p.mb-5 Los cuatro cuadrantes son una clasificación que contribuye al momento de planificar las pruebas ágiles, asegurando que se tengan en cuenta los métodos y recursos para alcanzar productos de software de calidad. 
+    p.mb-3 Para planificar las pruebas ágiles nos podemos basar en los cuadrantes del <i>agile testing</i>, que nos aporta una biblioteca de tipos de pruebas que se pueden usar para cumplir con los requerimientos.
+    p.mb-5 Los cuatro cuadrantes son una clasificación que contribuye al momento de planificar las pruebas ágiles, asegurando que se tengan en cuenta los métodos y recursos para alcanzar productos de <i>software</i> de calidad. 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-8.mb-5.mb-lg-0
@@ -907,7 +908,7 @@
     
     p.mb-3 Este enfoque de pruebas generalmente implica probar, aprender y diseñar nuevas pruebas como actividades que interactúan simultáneamente. 
 
-    p.mb-3 Casi todos los testers exploran cómo es el rendimiento de su trabajo, ya sea que lo reconozcan o no. Por ejemplo, considere las pruebas de regresión de errores. Para verificar si se corrigió un error, el tester puede comenzar con los pasos exactos enumerados en el informe de errores, pero después de que el programa pase esta prueba simple, el tester probablemente intentará pruebas adicionales para verificar si el error está completamente solucionado.   
+    p.mb-3 Casi todos los testers exploran cómo es el rendimiento de su trabajo, ya sea que lo reconozcan o no. Por ejemplo, considere las pruebas de regresión de errores. Para verificar si se corrigió un error, el tester puede comenzar con los pasos exactos enumerados en el informe de errores, pero después de que el programa pase esta prueba simple, el tester probablemente intentará pruebas adicionales para verificar si el error está completamente solucionado.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-8.mb-5.mb-lg-0
@@ -1222,59 +1223,6 @@
           hr
       .col-12.col-lg-4.mb-5.mb-lg-0
         img(src='@/assets/curso/images/tema1/img_78.svg' alt="")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
