@@ -77,12 +77,12 @@
 
     p.mb-5 En algunos casos las pruebas pueden hacerse de manera manual pero lo mejor es usar herramientas que permitan ejecutar el servicio de la mejor manera posible, hay muchas herramientas en el mercado y estas varían en función del lenguaje de programación que se esté utilizando, aquí se mencionan algunas de las más conocidas.
     
-    .row.mb-5
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.tarjeta.fblue-1.boxShadow.p-4
+    .row.justify-content-center.mb-5
+      .col-sm-6.col-lg-2.mb-4.mb-xl-0.tarjeta.fblue-1.boxShadow.p-4.m-2
         .p-4
           figure
-            img(src='@/assets/curso/images/tema1/avatar_1.svg', alt='imagen relacionada').mb-4
-          p.text-center Es una herramienta de pruebas unitarias para el framework.NET.
+            img(src='@/assets/curso/images/tema1/avatar_1.svg', alt='imagen relacionada').mb-1.mx-auto
+          p.text-center Es una herramienta de pruebas unitarias para el framework .NET
         .row
           .col-auto
             a.boton.color-primario.indicador__container(@click="modal1 = true")
@@ -95,16 +95,16 @@
           .row.align-items-center
             .col-md-6.mb-4.mb-md-0
               h4 XUnit
-              p Es una herramienta de pruebas unitarias para el framework .NET.
+              p Es una herramienta de pruebas unitarias para el framework .NET
         
             .col-md-6
               figure
                 img(src='@/assets/curso/images/tema1/unit.jpg', alt='Texto que describa la imagen')
                 figcaption XUnit
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.tarjeta.fblue-3.boxShadow.p-4
+      .col-sm-6.col-lg-2.mb-4.mb-xl-0.tarjeta.fblue-3.boxShadow.p-4.m-2
         .p-4
           figure
-            img(src='@/assets/curso/images/tema1/avatar_2.svg', alt='imagen relacionada').mb-4
+            img(src='@/assets/curso/images/tema1/avatar_2.svg', alt='imagen relacionada').mb-4.mx-auto
           p.text-center  Es una herramienta de pruebas de aplicaciones Java.
         .row.justify-content-center
           .col-auto
@@ -124,11 +124,11 @@
               figure
                 img(src='@/assets/curso/images/tema1/junit.jpg', alt='Texto que describa la imagen')
                 figcaption Junit
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.tarjeta.fblue-2.boxShadow.p-4
+      .col-sm-6.col-lg-2.mb-4.mb-xl-0.tarjeta.fblue-2.boxShadow.p-4.m-2
         .p-4
           figure
-            img(src='@/assets/curso/images/tema1/avatar_3.svg', alt='imagen relacionada').mb-4
-          p.text-center EEs una herramienta de pruebas de plataformas.NET.
+            img(src='@/assets/curso/images/tema1/avatar_3.svg', alt='imagen relacionada').mb-4.mx-auto
+          p.text-center Es una herramienta de pruebas de plataformas .NET
         .row.justify-content-center
           .col-auto
             a.boton.color-primario.indicador__container(@click="modal3 = true")
@@ -141,17 +141,17 @@
           .row.align-items-center
             .col-md-6.mb-4.mb-md-0
               h4 Nunit
-              p Es una herramienta de pruebas de plataformas .NET.
+              p Es una herramienta de pruebas de plataformas .NET
         
             .col-md-6
               figure
                 img(src='@/assets/curso/images/tema1/nunit.jpg', alt='Texto que describa la imagen')
                 figcaption Nunit
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.tarjeta.fblue-4.boxShadow.p-4
+      .col-sm-6.col-lg-2.mb-4.mb-xl-0.tarjeta.fblue-4.boxShadow.p-4.m-2
         .p-4
           figure
-            img(src='@/assets/curso/images/tema1/avatar_4.svg', alt='imagen relacionada').mb-4
-          p.text-center Es una herramienta de pruebas de programación PHP.
+            img(src='@/assets/curso/images/tema1/avatar_4.svg', alt='imagen relacionada').mb-4.mx-auto
+          p.text-center Es una herramienta de pruebas de programación PHP
         .row.justify-content-center
           .col-auto
             a.boton.color-acento-contenido.indicador__container(@click="modal4 = true")
