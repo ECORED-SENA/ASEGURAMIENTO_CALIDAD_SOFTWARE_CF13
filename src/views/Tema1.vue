@@ -83,9 +83,9 @@
           figure
             img(src='@/assets/curso/images/tema1/avatar_1.svg', alt='imagen relacionada').mb-1.mx-auto
           p.text-center Es una herramienta de pruebas unitarias para el framework .NET
-        .row
+        .row.justify-content-center
           .col-auto
-            a.boton.color-primario.indicador__container(@click="modal1 = true")
+            a.boton.color-primario.indicador__container(@click="modal1 = true").m-4
               span XUnit
               .indicador--click(v-if="mostrarIndicador")
           .col
@@ -108,7 +108,7 @@
           p.text-center  Es una herramienta de pruebas de aplicaciones Java.
         .row.justify-content-center
           .col-auto
-            a.boton.color-acento-contenido.indicador__container(@click="modal2 = true")
+            a.boton.color-acento-contenido.indicador__container(@click="modal2 = true").m-4
               span Junit
               .indicador--click(v-if="mostrarIndicador")
           .col
@@ -131,7 +131,7 @@
           p.text-center Es una herramienta de pruebas de plataformas .NET
         .row.justify-content-center
           .col-auto
-            a.boton.color-primario.indicador__container(@click="modal3 = true")
+            a.boton.color-primario.indicador__container(@click="modal3 = true").m-4
               span Nunit
               .indicador--click(v-if="mostrarIndicador")
           .col
@@ -154,7 +154,7 @@
           p.text-center Es una herramienta de pruebas de programación PHP
         .row.justify-content-center
           .col-auto
-            a.boton.color-acento-contenido.indicador__container(@click="modal4 = true")
+            a.boton.color-acento-contenido.indicador__container(@click="modal4 = true").m-4
               span PhpUnit
               .indicador--click(v-if="mostrarIndicador")
           .col
