@@ -1281,7 +1281,6 @@
       .col-12.col-lg-4.mb-5.mb-lg-0
         img(src='@/assets/curso/images/tema1/img_78.svg' alt="")
 
-    Muestras
 
   
 </template>
