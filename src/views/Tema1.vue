@@ -78,7 +78,7 @@
     p.mb-5 En algunos casos las pruebas pueden hacerse de manera manual pero lo mejor es usar herramientas que permitan ejecutar el servicio de la mejor manera posible, hay muchas herramientas en el mercado y estas varían en función del lenguaje de programación que se esté utilizando, aquí se mencionan algunas de las más conocidas.
     
     .row.mb-5
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.tarjeta.fblue-1.boxShadow.p-4
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0.tarjeta.fblue-1.boxShadow.p-4.m-1
         .p-4
           figure
             img(src='@/assets/curso/images/tema1/avatar_1.svg', alt='imagen relacionada').mb-4
@@ -101,7 +101,7 @@
               figure
                 img(src='@/assets/curso/images/tema1/unit.jpg', alt='Texto que describa la imagen')
                 figcaption XUnit
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.tarjeta.fblue-3.boxShadow.p-4
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0.tarjeta.fblue-3.boxShadow.p-4.m-1
         .p-4
           figure
             img(src='@/assets/curso/images/tema1/avatar_2.svg', alt='imagen relacionada').mb-4
@@ -124,7 +124,7 @@
               figure
                 img(src='@/assets/curso/images/tema1/junit.jpg', alt='Texto que describa la imagen')
                 figcaption Junit
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.tarjeta.fblue-2.boxShadow.p-4
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0.tarjeta.fblue-2.boxShadow.p-4.m-1
         .p-4
           figure
             img(src='@/assets/curso/images/tema1/avatar_3.svg', alt='imagen relacionada').mb-4
@@ -147,7 +147,7 @@
               figure
                 img(src='@/assets/curso/images/tema1/nunit.jpg', alt='Texto que describa la imagen')
                 figcaption Nunit
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.tarjeta.fblue-4.boxShadow.p-4
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0.tarjeta.fblue-4.boxShadow.p-4.m-1
         .p-4
           figure
             img(src='@/assets/curso/images/tema1/avatar_4.svg', alt='imagen relacionada').mb-4
