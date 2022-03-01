@@ -19,16 +19,16 @@
     
     .row.align-items-end.justify-content-center.mb-5.fondo-7
       .col-lg-8.ofVisible
-        p.mb-5 Las pruebas de <i>software</i> se pueden clasificar en dos tipos principales: pruebas funcionales y pruebas no funcionales. Teniendo en cuenta los diferentes frentes y aspectos de un producto <i>software</i>, con lo cual se requerirán diferentes tipos de pruebas, tales como: pruebas unitarias, pruebas de integración, pruebas de estrés, pruebas de rendimiento, pruebas de escalabilidad, entre otras. Cada uno de estos tipos de pruebas de <i>software</i> determinan la visibilidad de la aplicación, desde el código fuente hasta la interacción y experiencia con el usuario. Entrando en detalles, a continuación se invita a observar el siguiente video donde podrá identificar los tipos de pruebas de <i>software</i>.
+        p.mb-5.small.text Las pruebas de <i>software</i> se pueden clasificar en dos tipos principales: pruebas funcionales y pruebas no funcionales. Teniendo en cuenta los diferentes frentes y aspectos de un producto <i>software</i>, con lo cual se requerirán diferentes tipos de pruebas, tales como: pruebas unitarias, pruebas de integración, pruebas de estrés, pruebas de rendimiento, pruebas de escalabilidad, entre otras. Cada uno de estos tipos de pruebas de <i>software</i> determinan la visibilidad de la aplicación, desde el código fuente hasta la interacción y experiencia con el usuario. Entrando en detalles, a continuación se invita a observar el siguiente video donde podrá identificar los tipos de pruebas de <i>software</i>.
       .col-lg-4.lg-0
         figure
-          img(src='@/assets/curso/images/tema1/img_2.svg' alt='imagen relacionada')
+          img(src='@/assets/curso/images/tema1/img_2.svg' alt='' style="width:300px; display:block; margin:4rem 0;")
     
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .jumbotron-1.p-3
           p.text-center.mb-0 Algunos de los tipos de pruebas más comunes se describen en los siguientes puntos.
@@ -76,43 +76,100 @@
               | Se obtendrá un código de calidad.
 
     p.mb-5 En algunos casos las pruebas pueden hacerse de manera manual pero lo mejor es usar herramientas que permitan ejecutar el servicio de la mejor manera posible, hay muchas herramientas en el mercado y estas varían en función del lenguaje de programación que se esté utilizando, aquí se mencionan algunas de las más conocidas.
-
+    
     .row.mb-5
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-tarjeta-1(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor.color-tarjeta-1
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/avatar_1.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              img.mb-3(src="@/assets/curso/images/tema1/unit.svg", alt="")
-              p Es una herramienta de pruebas unitarias para el framework .NET
-
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-tarjeta-2(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor.color-tarjeta-2
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/avatar_2.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              img.mb-3(src="@/assets/curso/images/tema1/junit.jpg", alt="")
-              p  Es una herramienta de pruebas de aplicaciones java
-
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-tarjeta-3(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor.color-tarjeta-3
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/avatar_3.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              img.mb-3(src="@/assets/curso/images/tema1/nunit.jpg", alt="")
-              p Es una herramienta de pruebas de plataformas .NET
-  
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-tarjeta-4(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor.color-tarjeta-4
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/avatar_4.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              img.mb-3(src="@/assets/curso/images/tema1/phpunit.jpg", alt="")
-              p Es una herramienta de pruebas de programación PHP
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0.tarjeta.fblue-1.boxShadow.p-4
+        .p-4
+          figure
+            img(src='@/assets/curso/images/tema1/avatar_1.svg', alt='imagen relacionada').mb-4
+          p.text-center Es una herramienta de pruebas unitarias para el framework.NET.
+        .row
+          .col-auto
+            a.boton.color-primario.indicador__container(@click="modal1 = true")
+              span XUnit
+              .indicador--click(v-if="mostrarIndicador")
+          .col
+            p 
+              a.lnk(@click="modal1 = true") 
+        ModalA(:abrir-modal.sync="modal1")
+          .row.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h4 XUnit
+              p Es una herramienta de pruebas unitarias para el framework .NET.
+        
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema1/unit.jpg', alt='Texto que describa la imagen')
+                figcaption XUnit
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0.tarjeta.fblue-3.boxShadow.p-4
+        .p-4
+          figure
+            img(src='@/assets/curso/images/tema1/avatar_2.svg', alt='imagen relacionada').mb-4
+          p.text-center  Es una herramienta de pruebas de aplicaciones Java.
+        .row.justify-content-center
+          .col-auto
+            a.boton.color-acento-contenido.indicador__container(@click="modal2 = true")
+              span Junit
+              .indicador--click(v-if="mostrarIndicador")
+          .col
+            p 
+              a.lnk(@click="modal2 = true") 
+        ModalA(:abrir-modal.sync="modal2")
+          .row.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h4 Junit
+              p  Es una herramienta de pruebas de aplicaciones Java.
+        
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema1/junit.jpg', alt='Texto que describa la imagen')
+                figcaption Junit
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0.tarjeta.fblue-2.boxShadow.p-4
+        .p-4
+          figure
+            img(src='@/assets/curso/images/tema1/avatar_3.svg', alt='imagen relacionada').mb-4
+          p.text-center EEs una herramienta de pruebas de plataformas.NET.
+        .row.justify-content-center
+          .col-auto
+            a.boton.color-primario.indicador__container(@click="modal3 = true")
+              span Nunit
+              .indicador--click(v-if="mostrarIndicador")
+          .col
+            p 
+              a.lnk(@click="modal3 = true") 
+        ModalA(:abrir-modal.sync="modal3")
+          .row.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h4 Nunit
+              p Es una herramienta de pruebas de plataformas .NET.
+        
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema1/nunit.jpg', alt='Texto que describa la imagen')
+                figcaption Nunit
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0.tarjeta.fblue-4.boxShadow.p-4
+        .p-4
+          figure
+            img(src='@/assets/curso/images/tema1/avatar_4.svg', alt='imagen relacionada').mb-4
+          p.text-center Es una herramienta de pruebas de programación PHP.
+        .row.justify-content-center
+          .col-auto
+            a.boton.color-acento-contenido.indicador__container(@click="modal4 = true")
+              span PhpUnit
+              .indicador--click(v-if="mostrarIndicador")
+          .col
+            p 
+              a.lnk(@click="modal4 = true") 
+        ModalA(:abrir-modal.sync="modal4")
+          .row.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h4 PhpUnit
+              p Es una herramienta de pruebas de programación PHP.
+        
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema1/phpunit.jpg', alt='Texto que describa la imagen')
+                figcaption PhpUnit
 
 
     p.mb-5.text-center Para realizar las pruebas unitarias debemos tener en cuenta los siguientes criterios. 
@@ -1224,7 +1281,7 @@
       .col-12.col-lg-4.mb-5.mb-lg-0
         img(src='@/assets/curso/images/tema1/img_78.svg' alt="")
 
-
+    Muestras
 
   
 </template>
@@ -1237,7 +1294,10 @@ export default {
     Muestras, // borrar una vez el componente "Muestras" no se necesite
   },
   data: () => ({
-    // variables de vue
+    modal1: false,
+    modal2: false,
+    modal3: false,
+    modal4: false,
   }),
   mounted() {
     this.$nextTick(() => {
