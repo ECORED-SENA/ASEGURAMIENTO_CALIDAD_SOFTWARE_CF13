@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Aplicación de pruebas de software',
+    componenteFormativo: 'Aplicación de pruebas de <i>software</i>',
     descripcionCurso:
-      'En este módulo el aprendiz identificará que un software con calidad implica la utilización de los diferentes tipos de pruebas, metodologías o procedimientos estándares para el análisis, diseño, programación y prueba del software, para lograr una mayor confiabilidad, mantenibilidad y facilidad de prueba, a la vez que eleve la productividad, tanto para la labor de desarrollo como para el control de la calidad.',
+      'En este módulo el aprendiz identificará que un <i>software</i> con calidad implica la utilización de los diferentes tipos de pruebas, metodologías o procedimientos estándares para el análisis, diseño, programación y prueba del <i>software</i>, para lograr una mayor confiabilidad, mantenibilidad y facilidad de prueba, a la vez que eleve la productividad, tanto para la labor de desarrollo como para el control de la calidad.',
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
   },
@@ -268,7 +268,7 @@ export default {
     {
       texto:
         'Zamora, A., Benitez, J., & M. M. (25 de 06 de 2020). Test de usabilidad: identificando mejoras con nuestros usuarios. [Video]. YouTube.',
-      tipo: 'Workshop',
+      tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=EeRtQUljvOM',
     },
   ],
@@ -353,6 +353,12 @@ export default {
       {
         nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Revisión de estilo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Yenny Patricia Ulloa Villamizar',
+        cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

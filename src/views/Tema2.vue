@@ -60,7 +60,7 @@
           .col-lg-12
             figure
               img.my-3(src='@/assets/curso/images/tema2/img_2.svg' alt='')
-              img(src='@/assets/curso/images/tema2/img_2.svg' alt='')
+              img(src='@/assets/curso/images/tema2/img_3.svg' alt='')
       .py-3.py-md-4.color-tab.fondo(titulo='Diagrama de Pareto ')
         .row.align-items-center.justify-content-center
           .col-12.col-lg-7.mb-7.mb-lg-0

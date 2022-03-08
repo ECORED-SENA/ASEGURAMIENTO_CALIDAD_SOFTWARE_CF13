@@ -49,31 +49,35 @@
     
     h3.mb-3 Pruebas unitarias 
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-8
         p.mb-3  Estas pruebas se enfocan en validar elementos como componentes/unidades/piezas de forma individual e independiente de un producto <i>software</i> dado el principio SDLC. Cualquier bloque de código sea procedimiento, función, método, constructor, clase o módulo, puede ser una unidad y deberá ser considerado y sometido a pruebas unitarias, con lo cual se podrá determinar su comportamiento y validarlo versus el resultado esperado. Estas pruebas deben ser las primeras que se lleven a cabo en la fase de desarrollo y las deberán implementar los desarrolladores.
         .cajon.color-custom-2.p-4.mb-3
           p.mb-3 De acuerdo a Mera (2016) también se las conoce como unit testing son pequeños tests en los cuales se revisa que el comportamiento de un objeto y su lógica funcione adecuadamente.
       .col-lg-4.mb-5.mb-lg-0
         img(src="@/assets/curso/images/tema1/img_4.svg", alt="")
+
+
+    p.mb-3 De acuerdo a Mera (2016) también se las conoce como unit testing son pequeños tests en los cuales se revisa que el comportamiento de un objeto y su lógica funcione adecuadamente.
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .jumbotron-2.p-2.mb-2
-            i.lista-ul__vineta
-              | Son rápidas de realizar, por lo que se pueden realizar en gran cantidad
+          ul.lista-ul--color
+            i.fas.fa-circle.cac.mx-2
+            | Son rápidas de realizar, por lo que se pueden realizar en gran cantidad
         .jumbotron-3.p-2.mb-2
-            i.lista-ul__vineta
-              | Sirven como documentación de apoyo para el proyecto.
+            i.fas.fa-circle.cac.mx-2
+            | Sirven como documentación de apoyo para el proyecto.
         .jumbotron-2.p-2.mb-2
-            i.lista-ul__vineta
-              | Demuestran que la lógica del código funciona en todos los casos. 
+            i.fas.fa-circle.cac.mx-2
+            | Demuestran que la lógica del código funciona en todos los casos. 
         .jumbotron-3.p-2.mb-2
-            i.lista-ul__vineta 
-              | Permite a los programadores a entender bien el código base, lo que permite realizar cambios oportunos.
+            i.fas.fa-circle.cac.mx-2
+            | Permite a los programadores a entender bien el código base, lo que permite realizar cambios oportunos.
         .jumbotron-2.p-2.mb-2
-            i.lista-ul__vineta
-              | Se obtendrá un código de calidad.
+            i.fas.fa-circle.cac.mx-2
+            | Se obtendrá un código de calidad.
 
     p.mb-5 En algunos casos las pruebas pueden hacerse de manera manual pero lo mejor es usar herramientas que permitan ejecutar el servicio de la mejor manera posible, hay muchas herramientas en el mercado y estas varían en función del lenguaje de programación que se esté utilizando, aquí se mencionan algunas de las más conocidas.
     
@@ -81,8 +85,7 @@
       .col-sm-6.col-lg-2.mb-4.mb-xl-0.tarjeta.fblue-1.boxShadow.p-4.m-2
         .p-4
           figure
-            img(src='@/assets/curso/images/tema1/avatar_1.svg', alt='imagen relacionada').mb-1.mx-auto
-          p.text-center Es una herramienta de pruebas unitarias para el framework .NET
+            img(src='@/assets/curso/images/tema1/avatar_1.svg', alt='' style="width:100px; display:block; margin:auto 0;").mb-4.mx-auto
         .row.justify-content-center
           .col-auto
             a.boton.color-primario.indicador__container(@click="modal1 = true").m-4
@@ -104,8 +107,7 @@
       .col-sm-6.col-lg-2.mb-4.mb-xl-0.tarjeta.fblue-3.boxShadow.p-4.m-2
         .p-4
           figure
-            img(src='@/assets/curso/images/tema1/avatar_2.svg', alt='imagen relacionada').mb-4.mx-auto
-          p.text-center  Es una herramienta de pruebas de aplicaciones Java.
+            img(src='@/assets/curso/images/tema1/avatar_2.svg', alt='' style="width:100px; display:block; margin:auto 0;").mb-4.mx-auto
         .row.justify-content-center
           .col-auto
             a.boton.color-acento-contenido.indicador__container(@click="modal2 = true").m-4
@@ -127,8 +129,7 @@
       .col-sm-6.col-lg-2.mb-4.mb-xl-0.tarjeta.fblue-2.boxShadow.p-4.m-2
         .p-4
           figure
-            img(src='@/assets/curso/images/tema1/avatar_3.svg', alt='imagen relacionada').mb-4.mx-auto
-          p.text-center Es una herramienta de pruebas de plataformas .NET
+            img(src='@/assets/curso/images/tema1/avatar_3.svg', alt='' style="width:100px; display:block; margin:auto 0;").mb-4.mx-auto
         .row.justify-content-center
           .col-auto
             a.boton.color-primario.indicador__container(@click="modal3 = true").m-4
@@ -150,8 +151,7 @@
       .col-sm-6.col-lg-2.mb-4.mb-xl-0.tarjeta.fblue-4.boxShadow.p-4.m-2
         .p-4
           figure
-            img(src='@/assets/curso/images/tema1/avatar_4.svg', alt='imagen relacionada').mb-4.mx-auto
-          p.text-center Es una herramienta de pruebas de programación PHP
+            img(src='@/assets/curso/images/tema1/avatar_4.svg', alt='' style="width:100px; display:block; margin:auto 0;").mb-4.mx-auto
         .row.justify-content-center
           .col-auto
             a.boton.color-acento-contenido.indicador__container(@click="modal4 = true").m-4
@@ -180,14 +180,14 @@
     )
       .bloque-texto-g__texto.p-4
         ul.lista-ul--color
-          i.lista-ul__vineta 
-            p Se debe probar un sólo código a la vez #[BR]
-          i.lista-ul__vineta 
-            p Hay que realizar pruebas frecuentemente mientras se programa #[BR]
-          i.lista-ul__vineta 
-            p Se debe corregir los bugs identificados en las pruebas antes de continuar #[BR]
-          i.lista-ul__vineta 
-            p Cualquier cambio que se realice también debe pasar el test #[BR] #[BR]
+          i.fas.fa-circle.cac.mx-1
+          | Se debe probar un sólo código a la vez #[BR]
+          i.fas.fa-circle.cac.mx-1
+          | Hay que realizar pruebas frecuentemente mientras se programa #[BR]
+          i.fas.fa-circle.cac.mx-1
+          | Se debe corregir los bugs identificados en las pruebas antes de continuar #[BR]
+          i.fas.fa-circle.cac.mx-1
+          | Cualquier cambio que se realice también debe pasar el test #[BR] #[BR]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-7.mb-5.mb-lg-0
@@ -202,7 +202,7 @@
           img(src='@/assets/curso/images/tema1/comilla1.svg' alt='"' style='width:73px;margin-top:-10px;')
         .col-11.mx-auto.p-5
           p.text-white Las pruebas de integración se encargan de probar las interfaces entre los componentes o módulos; por ejemplo, el componente validación de usuario con el sistema operativo, el sistema de archivos en integración con el hardware
-          h6.text-right.fRight.mb-5 <span class='text-white'>(Mera  (2016) ).</span> <i class='fas fa-square cac'></i>
+          h6.text-right.fRight.mb-2 <span class='text-white'>(Mera  (2016) ).</span> <i class='fas fa-square cac'></i>
 
     p.mb-5.text-center  De acuerdo a esto, se debe tener en cuenta los objetos típicos de prueba:
 
@@ -211,29 +211,24 @@
         .col-12.col-lg-7.mb-5.mb-lg-0
           .jumbotron-5.p-3.mb-3
             ul.lista-ul--color
-              li  
-                i.lista-ul__vineta
-                | Bases de datos de subsistemas
+              i.fas.fa-circle.cac.mx-1
+              | Bases de datos de subsistemas
           .jumbotron-5.p-3.mb-3
             ul.lista-ul--color
-              li  
-                i.lista-ul__vineta
-                | Datos de configuración
+              i.fas.fa-circle.cac.mx-1
+              | Datos de configuración
           .jumbotron-5.p-3.mb-3
             ul.lista-ul--color
-              li  
-                i.lista-ul__vineta
-                | Configuración del sistema
+              i.fas.fa-circle.cac.mx-1 
+              | Configuración del sistema
           .jumbotron-5.p-3.mb-3
             ul.lista-ul--color
-              li  
-                i.lista-ul__vineta
-                | Infraestructura
+              i.fas.fa-circle.cac.mx-1
+              | Infraestructura
           .jumbotron-5.p-3.mb-3
             ul.lista-ul--color
-              li  
-                i.lista-ul__vineta
-                | Interfaces 
+              i.fas.fa-circle.cac.mx-1
+              | Interfaces 
         .col-lg-5.mb-5.mb-lg-0 
           img.my-3(src="@/assets/curso/images/tema1/img_7.svg", alt="")
     
@@ -248,7 +243,7 @@
             img(src='@/assets/curso/images/tema1/comilla1.svg' alt='"' style='width:73px;margin-top:-10px;')
           .col-11.mx-auto.p-5
             p.text-white En este tipo de pruebas se comprueban los requisitos basados en la operación de un <i>software</i>. Para verificar la carga que resiste el producto <i>software</i>, identificando si su rendimiento es el adecuado o si es estable a nivel de contacto con el servidor. 
-            h6.text-right.fRight.mb-5 <span class='text-white'>(Mera  (2016) ).</span> <i class='fas fa-square cac'></i>
+            h6.text-right.fRight.mb-2 <span class='text-white'>(Mera  (2016) ).</span> <i class='fas fa-square cac'></i>
       .col-lg-4.mb-5.mb-lg-0 
         img.my-3(src="@/assets/curso/images/tema1/img_8.svg", alt="")
 
@@ -321,7 +316,7 @@
             img(src='@/assets/curso/images/tema1/comilla1.svg' alt='"' style='width:73px;margin-top:-10px;')
           .col-11.mx-auto.p-5
             p.text-white Estas pruebas sirven para evaluar lo rápido que el programa realiza una tarea en condiciones específicas de trabajo, también evalúa la escalabilidad, fiabilidad y uso de los recursos.
-            h6.text-right.fRight.mb-5 <span class='text-white'>IBM (2021).</span> <i class='fas fa-square cac'></i>
+            h6.text-right.fRight.mb-2 <span class='text-white'>IBM (2021).</span> <i class='fas fa-square cac'></i>
       .col-lg-4.mb-5.mb-lg-0 
         img.my-3(src="@/assets/curso/images/tema1/img_15.svg", alt="")
     
@@ -337,19 +332,19 @@
             .col-auto
               img(src='@/assets/curso/images/tema1/ico_1.svg' alt="", style="width:40px; display:block; margin:auto 0;")
             .col
-              p.mb-0 Identificar y localizar problemas de rendimiento. Es permitir encontrar un fallo en el rendimiento, y también ayudar a localizar en que parte está ese problema para poder solucionarlo.
+              p.mb-0 <i>Identificar y localizar problemas de rendimiento.</i> Es permitir encontrar un fallo en el rendimiento, y también ayudar a localizar en que parte está ese problema para poder solucionarlo.
           hr
           .row.align-items-center.justify-content-center.mb-3
             .col-auto
               img(src='@/assets/curso/images/tema1/ico_2.svg' alt="", style="width:40px; display:block; margin:auto 0;")
             .col
-              p.mb-0 Verificar el cumplimiento de los SLA (Acuerdos de Nivel de Servicio). Se utiliza para medir los tiempos de respuesta del <i>software</i> en condiciones y tiempos específicos.
+              p.mb-0 <i>Verificar el cumplimiento de los SLA (Acuerdos de Nivel de Servicio).</i> Se utiliza para medir los tiempos de respuesta del <i>software</i> en condiciones y tiempos específicos.
           hr
           .row.align-items-center.justify-content-center.mb-3
             .col-auto
               img(src='@/assets/curso/images/tema1/ico_3.svg' alt="", style="width:40px; display:block; margin:auto 0;")
             .col
-              p.mb-0 Localizar cuellos de botella. Ayudar a detallar en qué lugar se generan estos cuellos de botellas si se debe a problemas de hardware como CPU, memoria, o es el ancho de banda.
+              p.mb-0 <i>Localizar cuellos de botella.</i> Ayudar a detallar en qué lugar se generan estos cuellos de botellas si se debe a problemas de hardware como CPU, memoria, o es el ancho de banda.
           hr
 
     h3.mb-3 Ventajas y desventajas de los tipos de pruebas
@@ -434,6 +429,8 @@
                 li 
                   i.fas.fa-angle-right
                   | Con una mejor refactorización del código mejora la calidad del código.
+                li 
+                  i.fas.fa-angle-right
                   | Permite una buena documentación y simplifica la integración.
           .col-lg-6        
             figure  
@@ -442,7 +439,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-7.mb-5.mb-lg-0
         h3 Desventajas de los tipos de pruebas
-        p.mb-3 Todos los tipos de pruebas mejoran la experiencia del usuario, las funcionalidades y garantizan la calidad, es decir, no hay desventajas sino más bien ventajas, por lo tanto, lo que sí se podría establecer como desventaja sería el tiempo y el costo relacionado con la prueba de <i>software</i>. Realizar pruebas requiere de recursos y esfuerzos, y se puede dar un riesgo asociado con resultados inexactos. No obstante, el no realizar pruebas a las aplicaciones podría traer problemas al producto.
+        p.mb-3 Todos los tipos de pruebas mejoran la experiencia del usuario, las funcionalidades y garantizan la calidad, es decir, no hay desventajas sino más bien ventajas, por lo tanto, lo que sí se podría establecer como desventaja sería <b> el tiempo y el costo</b> relacionado con la prueba de <i>software</i>. Realizar pruebas requiere de recursos y esfuerzos, y se puede dar un riesgo asociado con resultados inexactos. No obstante, el no realizar pruebas a las aplicaciones podría traer problemas al producto.
       .col-lg-5.mb-5.mb-lg-0 
         img.my-3(src="@/assets/curso/images/tema1/img_20.svg", alt="")
 
@@ -558,7 +555,7 @@
 
     Separador
 
-    #t_1_1.titulo-segundo
+    #t_1_2.titulo-segundo
       h2 1.2 Agile testing
     
     p.mb-5 Las metodologías ágiles proveen un conjunto de pautas y principios que buscan facilitar y priorizar la entrega de producto sobre procesos de documentación exhaustiva, haciéndolos más simples, donde interactúa el cliente final desde las primeras etapas del proyecto, lo cual es de resaltar que una metodología ágil tiene iteraciones o sprints, cada sprint tiene una duración que no es muy extensa, aproximadamente dos a cuatro semanas y así mismo, cuando se finaliza la iteración, es en este momento donde ya existen funcionalidades del <i>software</i> que pueden ser utilizadas por el cliente.
@@ -836,30 +833,64 @@
               p Pruebas unitarias y <i>Test-Driven Development</i>
 
     p.mb-3 En la siguiente tabla se puede verificar cada uno de los pasos guiados por las pruebas TDD, donde se explican cada uno y se dan ejemplos. 
+    .row.justify-content-center
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 2
+          span <i> Flujo del TDD </i>
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10
-        .tabla-b.color-primario.mt-5
           table
-            thead
+            thead.color-table-1 
               tr.text-center
                 th 
                 th Pasos
                 th Ejemplo 
             tbody
               tr
-                td.th-1.text-center.cs Red
-                td 1. Lo primero es que el cliente escriba una historia de usuario. #[br] #[br]2. Los criterios de aceptación de esta historia se escriben con el cliente, deben estar bien detallados. #[br] #[br] 3. Se debe seleccionar el criterio de aceptación más sencillo y se traduce en una prueba unitaria.
-                td Supóngase que el cliente solicita que se desarrolle una aplicación con operaciones matemáticas sencillas que sume y reste. #[br] #[br] Se define con el cliente que el criterio de aceptación está relacionado con: si se introduce en la aplicación dos números y se suma o resta, entonces la aplicación visualiza el resultado en pantalla. #[br] #[br] De acuerdo a este criterio, se empieza a especificar o definir el funcionamiento del algoritmo para la suma y la resta y luego se convierte el criterio de aceptación en una prueba específica, por ejemplo, un algoritmo que si se introduce los números 3 y 8 devuelve 11.Ejemplo de cómo sería la clase para calcular:  public void testSuma() { assertEquals(8, Operaciones.suma(3,8)); }
+                td.th-1(rowspan='2') 
+                  p.text-center.cs Red
+                td
+                  p 1. Lo primero es que el cliente escriba una historia de usuario. 
+                td
+                  p Supóngase que el cliente solicita que se desarrolle una aplicación con operaciones matemáticas sencillas que sume y reste.
               tr
-                td.th-2.text-center.cs-2 Green
-                td 5.  Se escribe el código que hace pasar la prueba. #[br] #[br] 6. Se ejecutan todas las pruebas automatizadas.
-                td El siguiente paso es escribir el código de la clase, en este momento ya se sabe cómo se va a comportar. #[br] #[br] public class Operaciones { public static int suma (int a, int b) { int c = a + b; return c; } } #[br] #[br] Posteriormente se ejecuta la prueba y en este momento se tiene el código funcionado con la prueba pasada.
+                td
+                  p 2. Los criterios de aceptación de esta historia se escriben con el cliente, deben estar bien detallados.                 
+                td
+                  p 3. Se define con el cliente que el criterio de aceptación está relacionado con: si se introduce en la aplicación dos números y se suma o resta, entonces la aplicación visualiza el resultado en pantalla 
               tr
-                td.th-3.text-center.cs-3 Refactor
-                td 7. Se ejecutan todas las pruebas automatizadas. #[br] #[br] 8. Se refactoriza y se limpia el código.
-                td Cuando esté todo funcionando, se pasa a refactorizar y a eliminar código duplicado. #[br] #[br] Es necesario pasar todos los test después de refactorizar.
-                  
+                td
+                  p 4. Se verifica que la prueba falla.           
+                td Si se intenta pasar este test resultará en error, debido a que la clase Operaciones todavía no existe.
+                        
+              tr
+                td.th-2(rowspan='3')
+                  p.mb-0.text-center.cs-2 Green
+                td
+                  p 5. Se escribe el código que hace pasar la prueba. 
+                td
+                  p El siguiente paso es escribir el código de la clase, en este momento ya se sabe cómo se va a comportar.
+              tr
+                td
+                  p 6. Se ejecutan todas las pruebas automatizadas.
+                td
+                  p Posteriormente se ejecuta la prueba y en este momento se tiene el código funcionado con la prueba pasada.
+              tr
+              tr
+                td.th-3(rowspan='3')
+                  p.text-center.cs-3 Refactor
+                td
+                  p 7. Se ejecutan todas las pruebas automatizadas.
+                td
+                  p Cuando esté todo funcionando, se pasa a refactorizar y a eliminar código duplicado.  
+              tr           
+                td
+                  p 8. Se refactoriza y se limpia el código.
+                td
+                  p Es necesario pasar todos los test después de refactorizar.
+
     h3.mb-3 Acceptance Test Driven Development (ATDD)
 
     .row.justify-content-center.mb-3
@@ -892,7 +923,7 @@
             .col-auto
               img(src='@/assets/curso/images/tema1/ico_8.svg' alt="", style="width:40px; display:block; margin:auto 0;")
             .col
-              p.mb-0 <b>Implementar la historia de usuario - Automatizar las pruebas:</b>) para este paso existen variadas formas de llevarla a cabo, sin embargo, lo importante es que, a partir de las pruebas de aceptación del paso anterior, se obtienen pruebas ejecutables, que permitirán conocer cuánto de la funcionalidad aún falta.
+              p.mb-0 <b>Implementar la historia de usuario - Automatizar las pruebas:</b> para este paso existen variadas formas de llevarla a cabo, sin embargo, lo importante es que, a partir de las pruebas de aceptación del paso anterior, se obtienen pruebas ejecutables, que permitirán conocer cuánto de la funcionalidad aún falta.
           hr
           .row.align-items-center.justify-content-center.mb-3
             .col-auto
@@ -919,7 +950,7 @@
       .col-lg-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 7
-          span <i>ATDD</i>
+          span <i>Acceptance Test Driven Development (ATDD)</i>
         img.my-3(src="@/assets/curso/images/tema1/img_48.svg", alt="")
 
 
@@ -949,7 +980,7 @@
 
     p.mb-3 Un ejemplo muy sencillo es el siguiente: primero definimos la característica o funcionalidad a implementar en la historia de usuario.
 
-    p.mb-3 Característica: un usuario quiere acceder a una plataforma <i>web</i>universitaria para descargar sus apuntes. Posteriormente se invita a ver la siguiente imagen que contiene dos escenarios a partir de la historia de usuario definida.
+    p.mb-3 Característica: un usuario quiere acceder a una plataforma <i>web</i> universitaria para descargar sus apuntes. Posteriormente se invita a ver la siguiente imagen que contiene dos escenarios a partir de la historia de usuario definida.
 
     .row.justify-content-center.mb-3
       .col-lg-12
@@ -969,7 +1000,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-8.mb-5.mb-lg-0
-        p.mb-3 El <i>testing</i> exploratorio es una combinación del diseño, ejecución y aprendizaje sobre el aplicativo que está bajo prueba, lo cual tiene un proceso de exploración y aprendizaje del producto bajo prueba. No se utiliza un guion o script de pruebas previamente diseñado, además es útil en metodologías ágiles.
+        p.mb-3 El <i>testing</i> exploratorio es una combinación del diseño, ejecución y aprendizaje sobre el aplicativo que está bajo prueba, lo cual tiene un proceso de exploración y aprendizaje del producto bajo prueba. No se utiliza un guion o #[<i>script </i>]de pruebas previamente diseñado, además es útil en metodologías ágiles.
         .jumbotron-9.mb-3.p-3
           .row.align-items-center.justify-content-center
             .col-lg-8
@@ -978,10 +1009,11 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p Webinar: El arte de hacer <i>Testing</i> Exploratorio
+                  p <i>Webinar:</i> El arte de hacer <i>Testing</i> Exploratorio
       .col-lg-4.mb-5.mb-lg-0
         img.my-3(src="@/assets/curso/images/tema1/img_55.svg", alt="")
     
+    p.mb-5 Después de observar el proceso exploratorio del software, se puede identificar las pruebas exploratorias que son:
     
     .row.justify-content-center.mb-3
       .col-lg-12
@@ -1002,7 +1034,7 @@
             p ● <b>Heurística:</b> reglas generales que ayudarán a cómo probar correctamente el producto.
 
 
-            p ● <b> Resultados revisables:</b> cuando se finalicen las pruebas exploratorias, el tester debe ser capaz de explicar cualquier aspecto del programa y mostrar cómo se cumplen los requisitos indicados en el procedimiento. 
+            p ● <b> Resultados revisables:</b> cuando se finalicen las pruebas exploratorias, el <i>tester</i> debe ser capaz de explicar cualquier aspecto del programa y mostrar cómo se cumplen los requisitos indicados en el procedimiento. 
 
     h3.mb-3 Automatización de pruebas de regresión
 
@@ -1016,13 +1048,15 @@
           p Se debe analizar los flujos que son los que más convienen y no limitarse a probarlos, debido a que será más costoso que falle en producción.
       .col-lg-4.mb-5.mb-lg-0
         img.my-3(src="@/assets/curso/images/tema1/img_57.svg", alt="")
+    
+    p.mb-3 Se debe analizar los flujos que son los que más convienen y no limitarse a probarlos, debido a que será más costoso que falle en producción.
 
     .cajon-b.cajon-b--c.color-primario.p-4
-      p.mb-0 Estas pruebas toman tiempo en ejecutarlas, sin embargo, al automatizar pruebas, las pruebas de regresión serán asertivas y rápidas, también si se cuenta con los scripts de las pruebas cualquier persona podrá ejecutarlas, sin requerir de un grupo de testers capacitados para estas pruebas, de hecho, si la aplicación original ya tiene mucho tiempo desde la primera vez que se liberó a producción, entonces el riesgo de no contar con alguien que tenga el conocimiento de los flujos se reduce.
+      p.mb-0 Estas pruebas toman tiempo en ejecutarlas, sin embargo, al automatizar pruebas, las pruebas de regresión serán asertivas y rápidas, también si se cuenta con los scripts de las pruebas cualquier persona podrá ejecutarlas, sin requerir de un grupo de <i>testers</i> capacitados para estas pruebas, de hecho, si la aplicación original ya tiene mucho tiempo desde la primera vez que se liberó a producción, entonces el riesgo de no contar con alguien que tenga el conocimiento de los flujos se reduce.
 
     h3.mb-3 Pruebas de regresión
 
-    p.mb-5 Este tipo de pruebas son lanzadas por los desarrolladores o los tester, y es posible su automatización. Para este tipo de pruebas se utilizan las mismas herramientas que se usan en las pruebas unitarias y en las de sistemas, pero también tienen herramientas especializadas de código abierto como:
+    p.mb-5 Este tipo de pruebas son lanzadas por los desarrolladores o los <i>tester</i>, y es posible su automatización. Para este tipo de pruebas se utilizan las mismas herramientas que se usan en las pruebas unitarias y en las de sistemas, pero también tienen herramientas especializadas de código abierto como:
 
     .row.align-items-center.justify-content-center.mb-5
         .col-lg-auto(style='z-index:1')
@@ -1042,7 +1076,7 @@
         .row.align-items-center.justify-content-center
           .col-lg-5
             h3 Pruebas exploratorias
-            p El <i>testing</i>exploratorio se define como el aprendizaje, el diseño de casos de prueba y la ejecución de las pruebas en forma simultánea. En otras palabras, es una técnica de prueba en la cual quien prueba controla activamente el diseño mientras son realizadas, y utiliza la información obtenida en la exploración para diseñar nuevas y mejores pruebas.
+            p El <i>testing</i> exploratorio se define como el aprendizaje, el diseño de casos de prueba y la ejecución de las pruebas en forma simultánea. En otras palabras, es una técnica de prueba en la cual quien prueba controla activamente el diseño mientras son realizadas, y utiliza la información obtenida en la exploración para diseñar nuevas y mejores pruebas.
           .col-lg-5
             figure
               img.mx-5(src='@/assets/curso/images/tema1/img_60.svg' alt='')
@@ -1059,7 +1093,7 @@
       .py-3.py-md-4.color-tab.fondo(titulo='Pruebas de aceptación')
         .row.align-items-center.justify-content-center.p-4
           h3 Pruebas de aceptación
-          p.mb-3 Estas pruebas se realizan asignando a los usuarios unas tareas muy específicas con pasos a seguir para comprobar la funcionalidad de un sistema, es decir, identificar los bugs, que posteriormente los desarrolladores deben trabajar para solucionarlos. 
+          p.mb-3 Estas pruebas se realizan asignando a los usuarios unas tareas muy específicas con pasos a seguir para comprobar la funcionalidad de un sistema, es decir, identificar los <i>bugs</i>, que posteriormente los desarrolladores deben trabajar para solucionarlos. 
           .col-lg-7
             
             p.mb-3 Durante las pruebas de aceptación de usuario, el usuario solicita un producto de <i>software</i> para asegurarse de que cumple con sus requerimientos, satisface sus expectativas y que su resultado es factible, es decir, que el <i>software</i> le permita realizar su trabajo.
@@ -1158,7 +1192,7 @@
     .row.align-items-end.justify-content-center.mb-5.fondo-6
       .col-lg-6.ofVisible
         h3 Incidencias detectadas
-        p.mb-5 La gestión de incidencias es un elemento central e importante en el proceso de calidad de <i>software</i> puesto que es en este punto donde se tienen en cuenta los errores (bugs). Por lo tanto, el propósito de las incidencias detectadas es precisamente generar su corrección, de tal manera que sea mínimamente probable que el error se repita. 
+        p.mb-5 La gestión de incidencias es un elemento central e importante en el proceso de calidad de <i>software</i> puesto que es en este punto donde se tienen en cuenta los errores ( <i>bugs</i> ). Por lo tanto, el propósito de las incidencias detectadas es precisamente generar su corrección, de tal manera que sea mínimamente probable que el error se repita. 
       .col-lg-5
         figure
           img(src='@/assets/curso/images/tema1/img_73.svg' alt='imagen relacionada')
@@ -1173,7 +1207,7 @@
           img(src='@/assets/curso/images/tema1/img_74.svg', alt='Texto que describa la imagen')
 
       div(x="7%" y="52%" tooltip="Nuevo" numero="1")
-        p  Durante las pruebas de <i>software</i> los errores de <i>software</i> deben ser identificados y registrados por el tester de <i>software</i> siendo ese instante donde se reporta el error.
+        p  Durante las pruebas de <i>software</i> los errores de <i>software</i> deben ser identificados y registrados por el <i>tester</i> de <i>software</i> siendo ese instante donde se reporta el error.
       div(x="22%" y="52%" tooltip="Abierto" numero="2")
         p El equipo de desarrollo adquiere el incidente y empieza a analizarlo.
       div(x="37%" y="52%" tooltip="Asignado" numero="3")
