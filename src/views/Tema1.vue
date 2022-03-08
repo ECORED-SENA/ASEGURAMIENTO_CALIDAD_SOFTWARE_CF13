@@ -633,7 +633,7 @@
           .row.align-items-center.justify-content-center
             .col-lg-8
               p.mb-3 Si es de su interés conocer más sobre los cuadrantes de pruebas ágiles, se le invita a consultar el videotutorial en el  material complementario, al cual puede acceder en el siguiente enlace. 
-              a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=gz7A7E" target="_blank")
+              a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=gz7A7EMZT_4" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
@@ -781,7 +781,7 @@
               figure
                 img(src='@/assets/curso/images/tema1/img_44.svg')
       
-    h3.mb-3 Test Driven Development (TDD)
+    h3.mb-3 <i>Test Driven Development (TDD)</i>
 
     p.mb-3 Es una técnica de desarrollo que permite crear test antes del código de producción, es decir, en la implementación final. La esencia del TDD es crear un test antes de la implementación, de tal modo que se realice la alimentación y el test pueda pasar y que además va de la mano con la refactorización. Normalmente se tienen requerimientos que son transmitidos en historias de usuario como criterios de aceptación o pueden ser requerimientos como casos de uso, posteriormente se recrean esos requerimientos por medio de pruebas automatizadas, luego estas guían para realizar el funcionamiento con buenas prácticas de desarrollo.
       
@@ -892,7 +892,7 @@
                 td
                   p Es necesario pasar todos los test después de refactorizar.
 
-    h3.mb-3 Acceptance Test Driven Development (ATDD)
+    h3.mb-3 <i>Acceptance Test Driven Development (ATDD)</i>
 
     .row.justify-content-center.mb-3
       .col-lg-12
@@ -977,7 +977,7 @@
             p 5. Refactorizar para eliminar la duplicación.
 
 
-    p.mb-3 BDD está basado en la técnica TDD, y corrige ciertas deficiencias que presenta TDD. El principal problema de TDD se produce cuando un <i>software</i> pasa correctamente un test y no consigue la funcionalidad deseada. Que un <i>software</i> pase correctamente un test no significa que haga lo que el cliente esperaba de él.
+    p.mb-3 BDD está basado en la técnica TDD, y corrige ciertas deficiencias que presenta TDD. El principal problema de TDD se produce cuando un <i>software</i> pasa correctamente un <i>test </i> y no consigue la funcionalidad deseada. Que un <i>software</i> pase correctamente un <i> test </i> no significa que haga lo que el cliente esperaba de él.
 
     p.mb-3 Un ejemplo muy sencillo es el siguiente: primero definimos la característica o funcionalidad a implementar en la historia de usuario.
 
@@ -997,7 +997,7 @@
     
     p.mb-3 Este enfoque de pruebas generalmente implica probar, aprender y diseñar nuevas pruebas como actividades que interactúan simultáneamente. 
 
-    p.mb-3 Casi todos los testers exploran cómo es el rendimiento de su trabajo, ya sea que lo reconozcan o no. Por ejemplo, considere las pruebas de regresión de errores. Para verificar si se corrigió un error, el tester puede comenzar con los pasos exactos enumerados en el informe de errores, pero después de que el programa pase esta prueba simple, el tester probablemente intentará pruebas adicionales para verificar si el error está completamente solucionado.
+    p.mb-3 Casi todos los <i>testers</i> exploran cómo es el rendimiento de su trabajo, ya sea que lo reconozcan o no. Por ejemplo, considere las pruebas de regresión de errores. Para verificar si se corrigió un error, el <i>tester</i> puede comenzar con los pasos exactos enumerados en el informe de errores, pero después de que el programa pase esta prueba simple, el tester probablemente intentará pruebas adicionales para verificar si el error está completamente solucionado.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-8.mb-5.mb-lg-0
@@ -1065,7 +1065,7 @@
             img(src='@/assets/curso/images/tema1/img_59.svg' alt='Atención' style='height:260px')
         .col-lg-6
           .p-4(style='background-color:rgba(77,208,225,.2);padding-left:50px !important;margin-left:-50px')
-            p.mb-0 Winrunner, VTest, Canoo, AdventNet y QEngine. Y otras herramientas comerciales para aplicar este tipo de pruebas son HP UFT, Seapine QA Wizart Pro, IBM Rational Test Workbench, SmartBear Test Complete, SOASTA, Ranorex UI y OpKey.
+            p.mb-0 <i>Winrunner, VTest, Canoo, AdventNet y QEngine.</i> Y otras herramientas comerciales para aplicar este tipo de pruebas son <i>HP UFT, Seapine QA Wizart Pro,</i> <i>IBM Rational Test Workbench, SmartBear Test Complete, SOASTA, Ranorex UI y OpKey.</i>
 
     h3.mb-3 Pruebas de exploratorias, usabilidad y aceptación
 
@@ -1122,7 +1122,7 @@
         .row.align-items-center.justify-content-center
           .col-lg-8
             h3 Pruebas de carga
-            p.mb-3  Las pruebas de carga se centran en determinar o validar las características de rendimiento del sistema o la aplicación sometida a un test cuando se enfrenta a diferentes volúmenes de cargas de trabajo prevista durante las operaciones de producción (Meier, y otros, 2007). 
+            p.mb-3  Las pruebas de carga se centran en determinar o validar las características de rendimiento del sistema o la aplicación sometida a un <i>test </i> cuando se enfrenta a diferentes volúmenes de cargas de trabajo prevista durante las operaciones de producción (Meier, y otros, 2007). 
           .col-lg-3
             figure
               img(src='@/assets/curso/images/tema1/img_65.svg' alt='')
