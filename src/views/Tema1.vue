@@ -849,7 +849,7 @@
                 th Ejemplo 
             tbody
               tr
-                td.th-1(rowspan='2') 
+                td.th-1(rowspan='3') 
                   p.text-center.cs Red
                 td
                   p 1. Lo primero es que el cliente escriba una historia de usuario. 
@@ -859,11 +859,12 @@
                 td
                   p 2. Los criterios de aceptación de esta historia se escriben con el cliente, deben estar bien detallados.                 
                 td
-                  p 3. Se define con el cliente que el criterio de aceptación está relacionado con: si se introduce en la aplicación dos números y se suma o resta, entonces la aplicación visualiza el resultado en pantalla 
+                  p 3. Se define con el cliente que el criterio de aceptación está relacionado con: si se introduce en la aplicación dos números y se suma o resta, entonces la aplicación visualiza el resultado en pantalla       
               tr
                 td
                   p 4. Se verifica que la prueba falla.           
-                td Si se intenta pasar este test resultará en error, debido a que la clase Operaciones todavía no existe.
+                td 
+                  p Si se intenta pasar este test resultará en error, debido a que la clase Operaciones todavía no existe.
                         
               tr
                 td.th-2(rowspan='3')
