@@ -53,31 +53,41 @@
       .col-lg-8
         p.mb-3  Estas pruebas se enfocan en validar elementos como componentes/unidades/piezas de forma individual e independiente de un producto <i>software</i> dado el principio SDLC. Cualquier bloque de código sea procedimiento, función, método, constructor, clase o módulo, puede ser una unidad y deberá ser considerado y sometido a pruebas unitarias, con lo cual se podrá determinar su comportamiento y validarlo versus el resultado esperado. Estas pruebas deben ser las primeras que se lleven a cabo en la fase de desarrollo y las deberán implementar los desarrolladores.
         .cajon.color-custom-2.p-4.mb-3
-          p.mb-3 De acuerdo a Mera (2016) también se las conoce como unit testing son pequeños tests en los cuales se revisa que el comportamiento de un objeto y su lógica funcione adecuadamente.
+          p.mb-3 De acuerdo a Mera (2016) también se las conoce como <i>unit testing</i> son pequeños tests en los cuales se revisa que el comportamiento de un objeto y su lógica funcione adecuadamente.
       .col-lg-4.mb-5.mb-lg-0
         img(src="@/assets/curso/images/tema1/img_4.svg", alt="")
 
 
-    p.mb-3 De acuerdo a Mera (2016) también se las conoce como unit testing son pequeños tests en los cuales se revisa que el comportamiento de un objeto y su lógica funcione adecuadamente.
+    p.mb-3 Por lo general se realiza durante la fase de desarrollo de las aplicaciones o software, esta es ejecutada por los programadores, aunque también pueden ser realizadas por los aseguradores de calidad. Las razones por las cuales se desarrolla este tipo de pruebas son:
+
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .jumbotron-2.p-2.mb-2
           ul.lista-ul--color
-            i.fas.fa-circle.cac.mx-2
-            | Son rápidas de realizar, por lo que se pueden realizar en gran cantidad
+            li 
+              i.fas.fa-circle.cac.mx-2
+              | Son rápidas de realizar, por lo que se pueden realizar en gran cantidad
         .jumbotron-3.p-2.mb-2
-            i.fas.fa-circle.cac.mx-2
-            | Sirven como documentación de apoyo para el proyecto.
+          ul.lista-ul--color
+            li 
+              i.fas.fa-circle.cac.mx-2
+              | Sirven como documentación de apoyo para el proyecto.
         .jumbotron-2.p-2.mb-2
-            i.fas.fa-circle.cac.mx-2
-            | Demuestran que la lógica del código funciona en todos los casos. 
+          ul.lista-ul--color
+            li
+              i.fas.fa-circle.cac.mx-2
+              | Demuestran que la lógica del código funciona en todos los casos. 
         .jumbotron-3.p-2.mb-2
-            i.fas.fa-circle.cac.mx-2
-            | Permite a los programadores a entender bien el código base, lo que permite realizar cambios oportunos.
+          ul.lista-ul--color
+            li 
+              i.fas.fa-circle.cac.mx-2
+              | Permite a los programadores a entender bien el código base, lo que permite realizar cambios oportunos.
         .jumbotron-2.p-2.mb-2
-            i.fas.fa-circle.cac.mx-2
-            | Se obtendrá un código de calidad.
+          ul.lista-ul--color
+            li 
+              i.fas.fa-circle.cac.mx-2
+              | Se obtendrá un código de calidad.
 
     p.mb-5 En algunos casos las pruebas pueden hacerse de manera manual pero lo mejor es usar herramientas que permitan ejecutar el servicio de la mejor manera posible, hay muchas herramientas en el mercado y estas varían en función del lenguaje de programación que se esté utilizando, aquí se mencionan algunas de las más conocidas.
     
@@ -180,14 +190,18 @@
     )
       .bloque-texto-g__texto.p-4
         ul.lista-ul--color
-          i.fas.fa-circle.cac.mx-1
-          | Se debe probar un sólo código a la vez #[BR]
-          i.fas.fa-circle.cac.mx-1
-          | Hay que realizar pruebas frecuentemente mientras se programa #[BR]
-          i.fas.fa-circle.cac.mx-1
-          | Se debe corregir los bugs identificados en las pruebas antes de continuar #[BR]
-          i.fas.fa-circle.cac.mx-1
-          | Cualquier cambio que se realice también debe pasar el test #[BR] #[BR]
+          li 
+            i.fas.fa-circle.cac
+            | Se debe probar un sólo código a la vez 
+          li
+            i.fas.fa-circle.cac
+            | Hay que realizar pruebas frecuentemente mientras se programa 
+          li
+            i.fas.fa-circle.cac
+            | Se debe corregir los bugs identificados en las pruebas antes de continuar 
+          li
+            i.fas.fa-circle.cac
+            | Cualquier cambio que se realice también debe pasar el test
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-7.mb-5.mb-lg-0
@@ -251,7 +265,7 @@
 
     .col-lg-10.mx-auto.mb-5
       LineaTiempoD.color-secundario.especial
-        .p-4(titulo='Pruebas de carga (Load test)' numero='1')
+        .p-4(titulo='Pruebas de carga (<i>Load test</i>)' numero='1')
           .row.align-items-center
             .col-lg-8
               h3.mb-3 Pruebas de carga (Load test)
@@ -259,7 +273,7 @@
             .col-lg-4
               figure
                 img(src='@/assets/curso/images/tema1/img_9.svg' alt='')
-        .p-4(titulo='Pruebas de rendimiento (Performance test)' numero='2')
+        .p-4(titulo='Pruebas de rendimiento (<i>Performance test</i>)' numero='2')
           .row.align-items-center
             .col-lg-8
               h3.mb-3 Pruebas de rendimiento
@@ -277,7 +291,7 @@
               figure
                 img(src='@/assets/curso/images/tema1/img_11.svg' alt='')
          
-        .p-4(titulo='Pruebas de volumen (volume test)' numero='4')
+        .p-4(titulo='Pruebas de volumen (<i>volume test</i>)' numero='4')
           .row.align-items-center
             .col-lg-8
               h3.mb-3 Pruebas de volumen
@@ -286,7 +300,7 @@
               figure
                 img(src='@/assets/curso/images/tema1/img_12.svg' alt='')
 
-        .p-4(titulo='Pruebas de usabilidad (usability test)' numero='5')
+        .p-4(titulo='Pruebas de usabilidad (<i>usability test</i>)' numero='5')
           .row.align-items-center
             .col-lg-8
               h3.mb-3 Pruebas de usabilidad
@@ -295,7 +309,7 @@
               figure
                 img(src='@/assets/curso/images/tema1/img_13.svg' alt='')
 
-        .p-4(titulo='Pruebas robustez (test for robustness)' numero='5')
+        .p-4(titulo='Pruebas robustez (<i>test for robustness</i>)' numero='5')
           .row.align-items-center
             .col-lg-8
               h3.mb-3 Pruebas de robustez
@@ -306,7 +320,7 @@
 
     h3.mb-3 Pruebas de rendimiento
 
-    p.mb-3 Son un tipo de pruebas no funcionales, las cuales se realizan con la finalidad de determinar la estabilidad, escalabilidad y velocidad de una funcionalidad en el producto <i>software</i>. El objetivo de este tipo de pruebas es verificar el comportamiento de la aplicación teniendo en cuenta diferentes puntos de referencia del sistema y de la red, tales como la CPU, la velocidad de renderizado o carga de la página, el control de tráfico, la concurrencia, consumo de recursos de servidor, entre otros. En esta categoría podemos encontrar las pruebas de carga y de esfuerzo. 
+    p.mb-3 Son un tipo de pruebas no funcionales, las cuales se realizan con la finalidad de determinar la estabilidad, escalabilidad y velocidad de una funcionalidad en el producto <i>software</i>. El objetivo de este tipo de pruebas es verificar el comportamiento de la aplicación teniendo en cuenta diferentes puntos de referencia del sistema y de la red, tales como la <i>CPU</i>, la velocidad de renderizado o carga de la página, el control de tráfico, la concurrencia, consumo de recursos de servidor, entre otros. En esta categoría podemos encontrar las pruebas de carga y de esfuerzo. 
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -332,19 +346,19 @@
             .col-auto
               img(src='@/assets/curso/images/tema1/ico_1.svg' alt="", style="width:40px; display:block; margin:auto 0;")
             .col
-              p.mb-0 <i>Identificar y localizar problemas de rendimiento.</i> Es permitir encontrar un fallo en el rendimiento, y también ayudar a localizar en que parte está ese problema para poder solucionarlo.
+              p.mb-0 <b>Identificar y localizar problemas de rendimiento.</b> Es permitir encontrar un fallo en el rendimiento, y también ayudar a localizar en que parte está ese problema para poder solucionarlo.
           hr
           .row.align-items-center.justify-content-center.mb-3
             .col-auto
               img(src='@/assets/curso/images/tema1/ico_2.svg' alt="", style="width:40px; display:block; margin:auto 0;")
             .col
-              p.mb-0 <i>Verificar el cumplimiento de los SLA (Acuerdos de Nivel de Servicio).</i> Se utiliza para medir los tiempos de respuesta del <i>software</i> en condiciones y tiempos específicos.
+              p.mb-0 <b>Verificar el cumplimiento de los SLA (Acuerdos de Nivel de Servicio).</b> Se utiliza para medir los tiempos de respuesta del <i>software</i> en condiciones y tiempos específicos.
           hr
           .row.align-items-center.justify-content-center.mb-3
             .col-auto
               img(src='@/assets/curso/images/tema1/ico_3.svg' alt="", style="width:40px; display:block; margin:auto 0;")
             .col
-              p.mb-0 <i>Localizar cuellos de botella.</i> Ayudar a detallar en qué lugar se generan estos cuellos de botellas si se debe a problemas de hardware como CPU, memoria, o es el ancho de banda.
+              p.mb-0 <b>Localizar cuellos de botella.</b> Ayudar a detallar en qué lugar se generan estos cuellos de botellas si se debe a problemas de hardware como <i>CPU</i>, memoria, o es el ancho de banda.
           hr
 
     h3.mb-3 Ventajas y desventajas de los tipos de pruebas
@@ -445,7 +459,7 @@
 
     h3.mb-3 Documentos de caso de pruebas
     
-    p.mb-3 Los productos que resultan del proceso de desarrollo de <i>software</i> son identificados como artefactos, por ejemplo, el código fuente, defectos, plan, casos y script de pruebas.
+    p.mb-3 Los productos que resultan del proceso de desarrollo de <i>software</i> son identificados como artefactos, por ejemplo, el código fuente, defectos, plan, casos y #[<i>script </i>] de pruebas.
     p.mb-5 El aseguramiento de la calidad de <i>software</i> se compone de artefactos específicos que se forman en las diversas etapas del proceso de SQA, como se muestra en la siguiente infografía. 
     
     .row.justify-content-center.align-items-center.mb-5
@@ -548,7 +562,7 @@
               p.mb-0 <b>Ejecutar las pruebas:</b> se incluyen las siguientes actividades: #[BR]
               
                   i.lista-ul__vineta
-                    | Ejecutar casos y script de prueba. #[BR]
+                    | Ejecutar casos y #[<i>script </i>] de prueba. #[BR]
                   i.lista-ul__vineta
                     | Analizar y registrar los resultados.
           hr
@@ -657,14 +671,14 @@
     SlyderA.fondo-3.mb-3
       .row.align-items-center.justify-content-center
         .col-lg-5
-          h3 Pruebas de cara al negocio (Business Facing) 
+          h3 Pruebas de cara al negocio (<i>Business Facing</i>) 
           p Son pruebas del Q2 y Q3, pruebas funcionales y pruebas UAT, se enfoca en realizar pruebas manuales y criticando al producto con las pruebas de aceptación.
         .col-lg-4
           figure
             img(src="@/assets/curso/images/tema1/img_31.svg" alt="", style="width:300px; display:block; margin:0 auto;")
       .row.align-items-center.justify-content-center
         .col-lg-5
-          h3 Pruebas de cara a la tecnología (Technology Facing)
+          h3 Pruebas de cara a la tecnología (<i>Technology Facing</i>)
           p Pueden ser automatizadas y utilizando herramientas, incluye el Q1 y Q4.
         .col-lg-4
           figure
@@ -678,7 +692,7 @@
             img(src="@/assets/curso/images/tema1/img_33.svg" alt="", style="width:200px; display:block; margin:0 auto;")
       .row.align-items-center.justify-content-center
         .col-lg-5
-          h3 Pruebas de críticas al producto (Critique the Product) 
+          h3 Pruebas de críticas al producto (<i>Critique the Product</i>) 
           p Estas pruebas pueden tener un carácter positivo, puesto que a partir de ellas se pueden sugerir o realizar mejoras. Cuando se ejecutan estas pruebas, la idea es simular lo más que se pueda un ambiente real en el cual serán ejecutadas, así mismo estas pruebas frecuentemente son realizadas por los usuarios finales como pruebas de aceptación (UAT).
         .col-lg-4
           figure
@@ -801,7 +815,7 @@
           .tarjeta-flip__contenedor.color-tarjeta-5
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/tj1.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-center.text-white  Es así debido a que se crea un test que falle y cuando falla en la consola aparece con letras rojas.
+              p.text-center.text-white  Es así debido a que se crea un <i>test</i> que falle y cuando falla en la consola aparece con letras rojas.
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-tarjeta-6(@mouseover="indicadorTarjetaFlip = false")
@@ -809,7 +823,7 @@
           .tarjeta-flip__contenedor.color-tarjeta-6
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/tj2.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-6
-              p.text-center.text-white   Este paso es hacer que el test pase y es llamado Green porque cuando pasa un test, normalmente en la consola aparece con letras verdes.	
+              p.text-center.text-white   Este paso es hacer que el test pase y es llamado <i>Green</i> porque cuando pasa un test, normalmente en la consola aparece con letras verdes.	
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-tarjeta-7(@mouseover="indicadorTarjetaFlip = false")
@@ -817,7 +831,7 @@
           .tarjeta-flip__contenedor.color-tarjeta-7
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/tj3.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-7
-              p.text-center.text-white  Una vez que el test pasa, se va a detectar u observar código que se pueda mejorar y si no se está aplicando una buena práctica, es el momento de hacerlo.
+              p.text-center.text-white  Una vez que el <i>test</i> pasa, se va a detectar u observar código que se pueda mejorar y si no se está aplicando una buena práctica, es el momento de hacerlo.
   
     p.mb-3 A continuación, se mostrará en términos generales como sería el flujo del TDD con pasos y un ejemplo sencillo, no obstante también se hace la invitación a observar el videotutorial llamado “Pruebas unitarias y <i>Test-Driven Development</i>”.
 
@@ -850,7 +864,7 @@
             tbody
               tr
                 td.th-1(rowspan='3') 
-                  p.text-center.cs Red
+                  p.text-center.cs <b>Red</b>
                 td
                   p 1. Lo primero es que el cliente escriba una historia de usuario. 
                 td
@@ -868,7 +882,7 @@
                         
               tr
                 td.th-2(rowspan='3')
-                  p.mb-0.text-center.cs-2 Green
+                  p.mb-0.text-center.cs-2 <b>Green</b>
                 td
                   p 5. Se escribe el código que hace pasar la prueba. 
                 td
@@ -881,7 +895,7 @@
               tr
               tr
                 td.th-3(rowspan='3')
-                  p.text-center.cs-3 Refactor
+                  p.text-center.cs-3 <b>Refactor</b>
                 td
                   p 7. Se ejecutan todas las pruebas automatizadas.
                 td
@@ -959,12 +973,12 @@
       .col-lg-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 8
-          span <i>Imagen BDD</i>
+          span <i>Behaviour Driven Development (BDD)</i>
         .row.justify-content-center
           .col-lg-8
             img.my-3(src="@/assets/curso/images/tema1/img_49.svg", alt="")
           .col-lg-4 
-            p El desarrollo dirigido por comportamiento (BDD) propuesto inicialmente por Dan North, es una síntesis y refinamiento de las prácticas de ingeniería de <i>software</i> que ayudan a los equipos generar y entregar <i>software</i> de mayor calidad rápidamente. El proceso de BDD es similar a TDD y sigue estos pasos:  
+            p El desarrollo dirigido por comportamiento (BDD) propuesto inicialmente por <i>Dan North</i>, es una síntesis y refinamiento de las prácticas de ingeniería de <i>software</i> que ayudan a los equipos generar y entregar <i>software</i> de mayor calidad rápidamente. El proceso de BDD es similar a TDD y sigue estos pasos:  
 
             p 1. Escribir un escenario.
 
@@ -1014,13 +1028,13 @@
       .col-lg-4.mb-5.mb-lg-0
         img.my-3(src="@/assets/curso/images/tema1/img_55.svg", alt="")
     
-    p.mb-5 Después de observar el proceso exploratorio del software, se puede identificar las pruebas exploratorias que son:
+    p.mb-5 Después de observar el proceso exploratorio del <i>software</i>, se puede identificar las pruebas exploratorias que son:
     
     .row.justify-content-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 10
-          span <i>Imagen testing exploratorio</i>
+          span <i>Imagen <i>testing</i> exploratorio</i>
     .jumbotron-10.p-5
         .row.justify-content-center
           .col-lg-8
@@ -1053,7 +1067,7 @@
     p.mb-3 Se debe analizar los flujos que son los que más convienen y no limitarse a probarlos, debido a que será más costoso que falle en producción.
 
     .cajon-b.cajon-b--c.color-primario.p-4
-      p.mb-0 Estas pruebas toman tiempo en ejecutarlas, sin embargo, al automatizar pruebas, las pruebas de regresión serán asertivas y rápidas, también si se cuenta con los scripts de las pruebas cualquier persona podrá ejecutarlas, sin requerir de un grupo de <i>testers</i> capacitados para estas pruebas, de hecho, si la aplicación original ya tiene mucho tiempo desde la primera vez que se liberó a producción, entonces el riesgo de no contar con alguien que tenga el conocimiento de los flujos se reduce.
+      p.mb-0 Estas pruebas toman tiempo en ejecutarlas, sin embargo, al automatizar pruebas, las pruebas de regresión serán asertivas y rápidas, también si se cuenta con los #[<i>scripts</i>] de las pruebas cualquier persona podrá ejecutarlas, sin requerir de un grupo de <i>testers</i> capacitados para estas pruebas, de hecho, si la aplicación original ya tiene mucho tiempo desde la primera vez que se liberó a producción, entonces el riesgo de no contar con alguien que tenga el conocimiento de los flujos se reduce.
 
     h3.mb-3 Pruebas de regresión
 
@@ -1114,7 +1128,7 @@
         .row.align-items-center.justify-content-center
           .col-lg-8
             h3 Pruebas de desempeño
-            p Las pruebas de desempeño permiten determinar el comportamiento de un sistema en términos de estabilidad y respuesta con respecto a un escenario en particular, referente a la carga de trabajo, concurrencia, ancho de banda, características particulares de equipos o servidores, como Ram, CPU. También permiten identificar, medir, investigar, validar o verificar otros aspectos de calidad, tales como la seguridad, escalabilidad y el consumo de recursos. Estas pruebas constituyen unos estándares de ejecución en la implementación, diseño y arquitectura de un producto <i>software</i>. Por lo tanto, una de las pruebas de desempeño esenciales es la prueba de carga que se menciona a continuación. 
+            p Las pruebas de desempeño permiten determinar el comportamiento de un sistema en términos de estabilidad y respuesta con respecto a un escenario en particular, referente a la carga de trabajo, concurrencia, ancho de banda, características particulares de equipos o servidores, como <i>Ram, CPU</i>. También permiten identificar, medir, investigar, validar o verificar otros aspectos de calidad, tales como la seguridad, escalabilidad y el consumo de recursos. Estas pruebas constituyen unos estándares de ejecución en la implementación, diseño y arquitectura de un producto <i>software</i>. Por lo tanto, una de las pruebas de desempeño esenciales es la prueba de carga que se menciona a continuación. 
           .col-lg-3
             figure
               img(src='@/assets/curso/images/tema1/img_64.svg' alt='')
