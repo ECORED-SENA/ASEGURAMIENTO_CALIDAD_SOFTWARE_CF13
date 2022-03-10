@@ -685,7 +685,7 @@
             img(src="@/assets/curso/images/tema1/img_32.svg" alt="", style="width:300px; display:block; margin:0 auto;")
       .row.align-items-center.justify-content-center
         .col-lg-5
-          h3 Pruebas soportando la programación o soporte del equipo (Supporting the Team)
+          h3 Pruebas soportando la programación o soporte del equipo (<i>Supporting the Team</i>)
           p Comprenden pruebas automatizadas y manuales del cuadrante Q2 y Q1 donde se realizan pruebas unitarias y de componentes y pruebas funcionales con prototipos y simuladores.
         .col-lg-4
           figure
@@ -699,7 +699,7 @@
             img(src="@/assets/curso/images/tema1/img_35.svg" alt="", style="width:200px; display:block; margin:0 auto;")
       .row.align-items-center.justify-content-center
         .col-lg-5
-          h3 El primer cuadrante (Q1) contiene los siguientes tipos de pruebas:
+          h3 El primer cuadrante <i>(Q1)</i> contiene los siguientes tipos de pruebas:
           p ●  Pruebas unitarias.
           p ●  Pruebas de componente.
         .col-lg-4
@@ -707,7 +707,7 @@
             img(src="@/assets/curso/images/tema1/img_36.svg" alt="", style="width:200px; display:block; margin:0 auto;")
       .row.align-items-center.justify-content-center
         .col-lg-5
-          h3 El Segundo cuadrante (Q2) definen las funcionalidades que el cliente solicita:
+          h3 El Segundo cuadrante <i>(Q2)</i> definen las funcionalidades que el cliente solicita:
           p ●   Pruebas funcionales.
           p ●   Pruebas de historias.
           p ●   Pruebas de prototipos y simulaciones.
@@ -716,7 +716,7 @@
             img(src="@/assets/curso/images/tema1/img_37.svg" alt="", style="width:200px; display:block; margin:0 auto;")
       .row.align-items-center.justify-content-center
         .col-lg-5
-          h3 El tercer cuadrante (Q3) contiene los siguientes tipos de pruebas:
+          h3 El tercer cuadrante <i>(Q3)</i> contiene los siguientes tipos de pruebas:
           p ●   Pruebas exploratorias.
           p ●   Pruebas de usabilidad.
           p ●   Pruebas de escenarios.
@@ -726,7 +726,7 @@
             img(src="@/assets/curso/images/tema1/img_38.svg" alt="", style="width:200px; display:block; margin:0 auto;")
       .row.align-items-center.justify-content-center
         .col-lg-5
-          h3 El cuarto cuadrante (Q4) contiene pruebas técnicas
+          h3 El cuarto cuadrante <i>(Q4)</i>contiene pruebas técnicas
           p Relacionadas con los requerimientos no funcionales, por lo que validan el cumplimiento de estos, analizando la seguridad, el desempeño y la robustez. 
           p ●   Pruebas de rendimiento y de estrés.
           p ●   Pruebas de seguridad.

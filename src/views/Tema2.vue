@@ -245,7 +245,7 @@
           h5 Tabla 7 
           span <i>Impacto en la organización</i>
         .tabla-b
-          .tabla-b__header.color-table-1
+          .tabla-b__header.color-table-2
             .h6.mb-0 Plazo
         table
           tr
