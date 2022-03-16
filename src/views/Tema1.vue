@@ -309,7 +309,7 @@
               figure
                 img(src='@/assets/curso/images/tema1/img_13.svg' alt='')
 
-        .p-4(titulo='Pruebas robustez (<i>test for robustness</i>)' numero='5')
+        .p-4(titulo='Pruebas robustez (<i>test for robustness</i>)' numero='6')
           .row.align-items-center
             .col-lg-8
               h3.mb-3 Pruebas de robustez
@@ -1020,7 +1020,7 @@
           .row.align-items-center.justify-content-center
             .col-lg-8
               p.mb-3 Si es de su interés conocer más sobre el <i>Testing</i> exploratorio, se le invita a consultar el webinar en el  material complementario, al cual puede acceder en el siguiente enlace.
-              a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=j0eAvY" target="_blank")
+              a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=gz7A7EMZT_4" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto

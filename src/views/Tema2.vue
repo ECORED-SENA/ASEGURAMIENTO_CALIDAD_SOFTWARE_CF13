@@ -67,7 +67,8 @@
             .row.justify-content-center
               .col-8
                 .tabla-a.color-acento-botones.mt-5.mx-0
-                  table(style="min-width:700px;")
+                  table
+                  
                     thead
                       tr.th-4.text-center
                         th Causa averia
