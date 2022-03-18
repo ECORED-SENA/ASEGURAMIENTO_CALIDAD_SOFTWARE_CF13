@@ -26,7 +26,7 @@
     
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8EuGaDjVbjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -1156,14 +1156,15 @@
           .col-lg-8
             figure.mb-5
               .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-c2v44BtDXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         p.mb-5.text-center A continuación, se presenta el siguiente video tutorial de instalación del <i>software</i> OWASP para realizar una prueba de seguridad:
         .row.align-items-center.justify-content-center
           .col-lg-8
             figure.mb-5
               .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/NqEcQCEtFK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
     h3.mb-3 Elaboración de informe de resultados
 
