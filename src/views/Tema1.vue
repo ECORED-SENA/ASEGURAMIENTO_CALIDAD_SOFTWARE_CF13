@@ -840,7 +840,7 @@
         .col-lg-7
           p.mb-3 Si es de su interés conocer más sobre el proceso de realizar las pruebas unitarias y <i>Test-Driven Development</i>, se le invita a consultar el videotutorial en el  material complementario, al cual puede acceder en el siguiente enlace.
         .col-lg-5 
-          a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=YuRdaR6w" target="_blank")
+          a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=gz7A7EMZT_4" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
