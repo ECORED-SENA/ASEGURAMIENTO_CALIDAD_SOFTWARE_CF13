@@ -261,7 +261,7 @@ export default {
     },
     {
       texto:
-        'SIlva, F. (27 de Mayo de 2015). Curvas de aprendizaje en diseño web, si tienes que enseñar a usarlo, no sirve. Blog IDA Chile | Estrategia para el éxito de tu negocio',
+        'Equipo IDA Ideas Digitales Aplicadas (28 de febrero de 2014). Curvas de aprendizaje en diseño web, si tienes que enseñar a usarlo, no sirve. Blog IDA Chile.',
       tipo: 'Blog',
       link: 'https://blog.ida.cl/diseno/como-mejorar-usabilidad-diseno-web/ ',
     },
