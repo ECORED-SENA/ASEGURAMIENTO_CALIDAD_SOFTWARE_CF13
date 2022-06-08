@@ -35,7 +35,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Agile testing',
+            titulo: '<i>Agile testing</i>',
             hash: 't_1_2',
           },
         ],
@@ -89,7 +89,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -128,12 +128,12 @@ export default {
   referencias: [
     {
       referencia:
-        'Mera Paz, J. A. (19 de 10 de 2016). Pruebas de Calidad software. Repositorio Institucional. ',
+        'Mera Paz, J. A. (19 de 10 de 2016). Pruebas de Calidad <em>software</em>. Repositorio Institucional. ',
       link: 'https://repository.ucc.edu.co/handle/20.500.12494/962',
     },
     {
       referencia:
-        'Bustamante Ramírez, J. (2011). Sistema de informes para pruebas de software. Repositorio Dspace',
+        'Bustamante Ramírez, J. (2011). Sistema de informes para pruebas de <em>software</em>. Repositorio Dspace',
       link: 'http://bibliotecadigital.iue.edu.co/xmlui/handle/20.500.12717/153',
     },
     {
@@ -143,25 +143,25 @@ export default {
     },
     {
       referencia:
-        'Beck, K., & Andres, C. (2004b). Extreme Programming Explained: Embrace Change, 2nd Edition (<i>The XP Series</i>) (2nd ed.). Addison-Wesley.',
+        'Beck, K., & Andres, C. (2004b). <i>Extreme Programming Explained: Embrace Change</i>, 2nd <em>Edition</em> (<i>The XP Series</i>) (2nd ed.). Addison-Wesley.',
     },
     {
       referencia:
-        'Jeffries, R. (2011). What is Extreme Programming? Ronjeffries.Com.',
+        'Jeffries, R. (2011). <i>What is Extreme Programming?</i> Ronjeffries.com.',
       link: 'https://ronjeffries.com/xprog/what-is-extreme-programming/',
     },
     {
       referencia:
-        'Kruchten, P. (2003). The Rational Unified Process: An Introduction (3rd Edition) (3rd ed.). Addison-Wesley Professional',
+        'Kruchten, P. (2003). <i>The Rational Unified Process: An Introduction</i> (3rd <em>Edition</em>) (3rd ed.). Addison-Wesley <i>Professional</i>',
     },
     {
       referencia:
-        'Maida, EG, Pacienzia, J. (2015). Metodologías de desarrollo de software [en línea]. Tesis de Licenciatura en Sistemas y Computación. Facultad de Química e Ingeniería “Fray Rogelio Bacon”. Universidad Católica Argentina, 2015.',
+        'Maida, EG, Pacienzia, J. (2015). Metodologías de desarrollo de <em>software</em> [en línea]. Tesis de Licenciatura en Sistemas y Computación. Facultad de Química e Ingeniería “Fray Rogelio Bacon”. Universidad Católica Argentina, 2015.',
       link: ' https://bit.ly/3hJMwXP',
     },
     {
       referencia:
-        'Manifiesto por el Desarrollo Ágil de Software. (2001). Agilemanifesto.Org.',
+        'Manifiesto por el Desarrollo Ágil de <em>software</em>. (2001). Agilemanifesto.org.',
       link: 'https://agilemanifesto.org/iso/es/manifesto.html',
     },
     {
@@ -170,22 +170,22 @@ export default {
     },
     {
       referencia:
-        '<i>Royce, W.W. (1970) Managing the Development of Large Software Systems. Proceedings of IEEE WESCON, 26, 328-388.</i>',
+        '<i>Royce, W.W. (1970) Managing the Development of Large <em>software</em> Systems. Proceedings of IEEE WESCON, 26, 328-388.</i>',
     },
     {
       referencia:
-        'SCRUMstudy. (2013). A Guide to the Scrum Body of Knowledge (SBOK Guide) (2013th ed.). VMEdu Inc.',
+        'SCRUMstudy. (2013). <i>A Guide to the Scrum Body of Knowledge</i> (SBOK <i>Guide</i>) (2013th ed.). VMEdu Inc.',
     },
     {
       referencia:
-        'Sommerville, I., Galipienso, M. I. A., & Martinez, A. B. (2005). Ingeniería del Software. Pearson Educación.',
+        'Sommerville, I., Galipienso, M. I. A., & Martinez, A. B. (2005). Ingeniería del <em>software</em>. Pearson Educación.',
     },
   ],
   glosario: [
     {
       termino: 'Automatización de pruebas',
       significado:
-        'Es la práctica que permite controlar la ejecución de un producto software de manera automática.',
+        'Es la práctica que permite controlar la ejecución de un producto <em>software</em> de manera automática.',
     },
     {
       termino: 'Aplicación',
@@ -200,7 +200,7 @@ export default {
     {
       termino: 'BDD',
       significado:
-        '<i>Behaviour Driven Development </i> es una estrategia de desarrollo dirigido por comportamiento, se define en un idioma común entre todos los <i>stakeholders</i>, lo que mejora la comunicación entre equipos tecnológicos y no técnicos..',
+        '<i>Behaviour Driven Development </i> es una estrategia de desarrollo dirigido por comportamiento, se define en un idioma común entre todos los <i>stakeholders</i>, lo que mejora la comunicación entre equipos tecnológicos y no técnicos.',
     },
     {
       termino: 'Incidencia',
@@ -210,17 +210,17 @@ export default {
     {
       termino: 'Integración continua',
       significado:
-        'es una práctica de desarrollo de software por medio de la cual los desarrolladores combinan los cambios en el código en un repositorio.',
+        'es una práctica de desarrollo de <em>software</em> por medio de la cual los desarrolladores combinan los cambios en el código en un repositorio.',
     },
     {
       termino: 'QA',
       significado:
-        'Calidad de software (<i>Quality Software</i>) trata los conceptos, los métodos, las técnicas, los procedimientos y los estándares necesarios para producir productos y procesos software de alta calidad.',
+        'Calidad de <em>software</em> (<i>Quality Software</i>) trata los conceptos, los métodos, las técnicas, los procedimientos y los estándares necesarios para producir productos y procesos <em>software</em> de alta calidad.',
     },
     {
       termino: 'TDD',
       significado:
-        'Desarrollo Guiado por Pruebas (<i>Test Driven Development</i>), con el TDD se puede agilizar el proceso de creación de código. Este se centra más por el qué y el por qué antes del cómo.',
+        'Desarrollo Guiado por Pruebas (<i>Test Driven Development</i>), con el TDD se puede agilizar el proceso de creación de código. Este se centra más por el qué y el porqué antes del cómo.',
     },
     {
       termino: 'UX',
@@ -231,7 +231,7 @@ export default {
   complementario: [
     {
       texto:
-        'SENA, E. d. (24 de 08 de 2021). Tipos de pruebas de software. [Video]. YouTube.',
+        'SENA, E. d. (24 de Agosto de 2021). Tipos de pruebas de <em>software</em>. [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Uf1Kk52ONYc ',
     },
@@ -249,25 +249,25 @@ export default {
     },
     {
       texto:
-        'QA, H.-O. (04 de 09 de 2020). Cuadrantes de prueba. [Video]. YouTube.',
+        'QA, H.-O. (04 de Septiembre de 2020). Cuadrantes de prueba. [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=gz7A7EMZT_4',
     },
     {
       texto:
-        'Zapata, M. (07 de 06 de 2020). Pruebas unitarias y Test-Driven Development. [Video]. YouTube.',
+        'Zapata, M. (07 de Junio de 2020). Pruebas unitarias y Test-Driven Development. [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=YuRdaR6wwWU ',
     },
     {
       texto:
-        'SIlva, F. (2015, 27 mayo). Cómo mejorar la usabilidad de tu diseño web. Blog IDA Chile | Estrategia para el éxito de tu negocio',
+        'SIlva, F. (27 de Mayo de 2015). Curvas de aprendizaje en diseño web, si tienes que enseñar a usarlo, no sirve. Blog IDA Chile | Estrategia para el éxito de tu negocio',
       tipo: 'Blog',
       link: 'https://blog.ida.cl/diseno/como-mejorar-usabilidad-diseno-web/ ',
     },
     {
       texto:
-        'Zamora, A., Benitez, J., & M. M. (25 de 06 de 2020). Test de usabilidad: identificando mejoras con nuestros usuarios. [Video]. YouTube.',
+        'Zamora, A., Benitez, J., & M. M. (25 de Junio de 2020). Test de usabilidad: identificando mejoras con nuestros usuarios. [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=EeRtQUljvOM',
     },

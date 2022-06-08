@@ -58,7 +58,7 @@
         img(src="@/assets/curso/images/tema1/img_4.svg", alt="")
 
 
-    p.mb-3 Por lo general se realiza durante la fase de desarrollo de las aplicaciones o software, esta es ejecutada por los programadores, aunque también pueden ser realizadas por los aseguradores de calidad. Las razones por las cuales se desarrolla este tipo de pruebas son:
+    p.mb-3 Por lo general se realiza durante la fase de desarrollo de las aplicaciones o <em>software</em>, esta es ejecutada por los programadores, aunque también pueden ser realizadas por los aseguradores de calidad. Las razones por las cuales se desarrolla este tipo de pruebas son:
 
     
     .row.justify-content-center.align-items-center.mb-5
@@ -108,7 +108,7 @@
           .row.align-items-center
             .col-md-6.mb-4.mb-md-0
               h4 XUnit
-              p Es una herramienta de pruebas unitarias para el framework .NET
+              p Es una herramienta de pruebas unitarias para el <em>framework</em> .NET
         
             .col-md-6
               figure
@@ -182,7 +182,7 @@
                 figcaption PhpUnit
 
 
-    p.mb-5.text-center Para realizar las pruebas unitarias debemos tener en cuenta los siguientes criterios. 
+    p.mb-5.text-center Para realizar las pruebas unitarias debemos tener en cuenta los siguientes criterios: 
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.verticalLine
       .bloque-texto-g__img.m-left(
@@ -192,16 +192,16 @@
         ul.lista-ul--color
           li 
             i.fas.fa-circle.cac
-            | Se debe probar un sólo código a la vez 
+            p Se debe probar un slo código a la vez. 
           li
             i.fas.fa-circle.cac
-            | Hay que realizar pruebas frecuentemente mientras se programa 
+            p Hay que realizar pruebas frecuentemente mientras se programa. 
           li
             i.fas.fa-circle.cac
-            | Se debe corregir los bugs identificados en las pruebas antes de continuar 
+            p Se debe corregir los <i>bugs</i> identificados en las pruebas antes de continuar. 
           li
             i.fas.fa-circle.cac
-            | Cualquier cambio que se realice también debe pasar el test
+            p Cualquier cambio que se realice también debe pasar el test.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-7.mb-5.mb-lg-0
@@ -215,7 +215,7 @@
         .col-auto.ms-5
           img(src='@/assets/curso/images/tema1/comilla1.svg' alt='"' style='width:73px;margin-top:-10px;')
         .col-11.mx-auto.p-5
-          p.text-white Las pruebas de integración se encargan de probar las interfaces entre los componentes o módulos; por ejemplo, el componente validación de usuario con el sistema operativo, el sistema de archivos en integración con el hardware
+          p.text-white Las pruebas de integración se encargan de probar las interfaces entre los componentes o módulos; por ejemplo, el componente validación de usuario con el sistema operativo, el sistema de archivos en integración con el <em>hardware</em>.
           h6.text-right.fRight.mb-2 <span class='text-white'>(Mera  (2016) ).</span> <i class='fas fa-square cac'></i>
 
     p.mb-5.text-center  De acuerdo a esto, se debe tener en cuenta los objetos típicos de prueba:
@@ -268,7 +268,6 @@
         .p-4(titulo='Pruebas de carga (<i>Load test</i>)' numero='1')
           .row.align-items-center
             .col-lg-8
-              h3.mb-3 Pruebas de carga (Load test)
               p Simulan la demanda esperada que puede tener una aplicación y mide el resultado.
             .col-lg-4
               figure
@@ -276,7 +275,6 @@
         .p-4(titulo='Pruebas de rendimiento (<i>Performance test</i>)' numero='2')
           .row.align-items-center
             .col-lg-8
-              h3.mb-3 Pruebas de rendimiento
               p Se calcula la respuesta del programa con diferentes medidas de peticiones del usuario.
             .col-lg-4
               figure
@@ -285,7 +283,6 @@
         .p-4(titulo='Pruebas de estrés (<i>Stress test</i>)' numero='3')
           .row.align-items-center
             .col-lg-8
-              h3.mb-3 Pruebas de estrés (<i>Stress test</i>)
               p Nos permite saber cuántos usuarios o peticiones puede soportar el programa, con esta prueba se determina si el sistema es estable. 
             .col-lg-4
               figure
@@ -294,7 +291,6 @@
         .p-4(titulo='Pruebas de volumen (<i>volume test</i>)' numero='4')
           .row.align-items-center
             .col-lg-8
-              h3.mb-3 Pruebas de volumen
               p Consiste en probar el funcionamiento del programa con ciertos volúmenes de datos.
             .col-lg-4
               figure
@@ -303,7 +299,6 @@
         .p-4(titulo='Pruebas de usabilidad (<i>usability test</i>)' numero='5')
           .row.align-items-center
             .col-lg-8
-              h3.mb-3 Pruebas de usabilidad
               p Se centran en validar que tan fácil se utiliza el programa en cuanto a facilidad de aprendizaje, eficiencia, memorización, errores y satisfacción.
             .col-lg-4
               figure
@@ -312,8 +307,7 @@
         .p-4(titulo='Pruebas robustez (<i>test for robustness</i>)' numero='6')
           .row.align-items-center
             .col-lg-8
-              h3.mb-3 Pruebas de robustez
-              p Son las encargadas de verificar la capacidad del programa para soportar entradas o instrucciones incorrectas. Una de sus características principales es implementar mecanismos de <i>software</i> de detección de errores en el hardware.
+              p Son las encargadas de verificar la capacidad del programa para soportar entradas o instrucciones incorrectas. Una de sus características principales es implementar mecanismos de <i>software</i> de detección de errores en el <em>hardware</em>.
             .col-lg-4
               figure
                 img(src='@/assets/curso/images/tema1/img_14.svg' alt='')
@@ -358,7 +352,7 @@
             .col-auto
               img(src='@/assets/curso/images/tema1/ico_3.svg' alt="", style="width:40px; display:block; margin:auto 0;")
             .col
-              p.mb-0 <b>Localizar cuellos de botella.</b> Ayudar a detallar en qué lugar se generan estos cuellos de botellas si se debe a problemas de hardware como <i>CPU</i>, memoria, o es el ancho de banda.
+              p.mb-0 <b>Localizar cuellos de botella.</b> Ayudar a detallar en qué lugar se generan estos cuellos de botellas si se debe a problemas de <em>hardware</em> como <i>CPU</i>, memoria, o es el ancho de banda.
           hr
 
     h3.mb-3 Ventajas y desventajas de los tipos de pruebas
@@ -371,22 +365,22 @@
           .col-lg-10
             p.mb-3 Entre los aspectos denominados negativos en la experiencia con páginas <i>web</i>, están:
 
-              ul.lista-ul
+              ul.lista-ul.mt-4
                 li 
                   i.fas.fa-angle-right
-                  | Evalúa la velocidad y escalabilidad de la aplicación. 
+                  p Evalúa la velocidad y escalabilidad de la aplicación. 
                 li 
                   i.fas.fa-angle-right
-                  | Determina los cuellos de botella para las mejoras de rendimiento.
+                  p Determina los cuellos de botella para las mejoras de rendimiento.
                 li 
                   i.fas.fa-angle-right
-                  | Detecta errores que se pasan por alto en las pruebas funcionales..
+                  p Detecta errores que se pasan por alto en las pruebas funcionales.
                 li 
                   i.fas.fa-angle-right
-                  | Mejoras de características y optimización del sistema.
+                  p Mejoras de características y optimización del sistema.
                 li 
                   i.fas.fa-angle-right
-                  | Garantiza la fiabilidad de la aplicación <i>web</i> bajo una gran carga.
+                  p Garantiza la fiabilidad de la aplicación <i>web</i>  bajo una gran carga.
         .row.align-items-center.justify-content-center
           .col-lg-8
             figure  
@@ -463,9 +457,7 @@
     p.mb-5 El aseguramiento de la calidad de <i>software</i> se compone de artefactos específicos que se forman en las diversas etapas del proceso de SQA, como se muestra en la siguiente infografía. 
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-8.mb-5.mb-lg-0
-        .jumbotron-7.p-2
-          p.text-white.text-center <b>Artefactos de prueba en las etapas del proceso de SQA</b>
+      .col-lg-8.mb-5.mb-lg-0
         img.my-3(src="@/assets/curso/images/tema1/img_21.svg", alt="")
     
     .jumbotron-8.p-4.mb-5
@@ -488,25 +480,25 @@
           table
             tr
               td Identificador
-              td Puede ser alfanumérico o numérico
+              td Puede ser alfanumérico o numérico.
             tr
               td Nombre
-              td Nombre del caso de prueba de manera concisa 
+              td Nombre del caso de prueba de manera concisa. 
             tr
               td Descripción 
-              td Objetivo del caso de prueba, también describe que probará, en ciertas ocasiones se incluye el ambiente de pruebas.
+              td Objetivo del caso de prueba, también describe qué probará, en ciertas ocasiones se incluye el ambiente de pruebas.
             tr
               td Número de orden de ejecución 
               td Orden en la cual se ejecuta el caso de prueba, en la situación de que se tengan múltiples casos de prueba.
             tr
               td Requerimiento asociado
-              td Si se plantea un caso de prueba se debe saber a qué requerimiento va asociado para mantener la trazabilidad
+              td Si se plantea un caso de prueba se debe saber a qué requerimiento va asociado para mantener la trazabilidad.
             tr
               td Precondición
-              td Estado en la cual se debe encontrar el sistema antes de comenzar la pruebe
+              td Estado en la cual se debe encontrar el sistema antes de comenzar la prueba.
             tr
               td Postcondición
-              td El estado en que debe encontrarse el sistema luego de ejecutar la prueba
+              td El estado en que debe encontrarse el sistema luego de ejecutar la prueba.
             tr
               td Resultado esperado
               td Objetivo que debe ser alcanzado posterior a ejecutarse la prueba.
@@ -560,29 +552,30 @@
               img(src='@/assets/curso/images/tema1/ico_5.svg' alt="", style="width:40px; display:block; margin:auto 0;")
             .col
               p.mb-0 <b>Ejecutar las pruebas:</b> se incluyen las siguientes actividades: #[BR]
-              
-                  i.lista-ul__vineta
-                    | Ejecutar casos y #[<i>script </i>] de prueba. #[BR]
-                  i.lista-ul__vineta
-                    | Analizar y registrar los resultados.
+              ul
+                li
+                  p ●	Ejecutar casos y <i>script </i> de prueba.
+                li                   
+
+                  p ●	Analizar y registrar los resultados.
           hr
 
     Separador
 
     #t_1_2.titulo-segundo
-      h2 1.2 Agile testing
+      h2 1.2 <i>Agile testing</i>
     
     p.mb-5 Las metodologías ágiles proveen un conjunto de pautas y principios que buscan facilitar y priorizar la entrega de producto sobre procesos de documentación exhaustiva, haciéndolos más simples, donde interactúa el cliente final desde las primeras etapas del proyecto, lo cual es de resaltar que una metodología ágil tiene iteraciones o sprints, cada sprint tiene una duración que no es muy extensa, aproximadamente dos a cuatro semanas y así mismo, cuando se finaliza la iteración, es en este momento donde ya existen funcionalidades del <i>software</i> que pueden ser utilizadas por el cliente.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-5.mb-5.mb-lg-0
-        p.mb-3 Habiendo recordado las metodologías ágiles, se puede especificar que las pruebas ágiles <i>(Agile testing)</i>es una práctica que se realiza en cada iteración, por lo tanto existen dos tipos de planificaciones reléase/entrega que hace referencia a las entregas frecuentes al cliente, es decir, poner en producción nuevas versiones del producto y sprint/iteración que hace referencia a que un proyecto se ejecuta en bloques temporales cortos y fijos, no obstante, estas se pueden dar en un mismo momento, es decir, que puede incluir una sola planificación con actividades tanto del release como del sprint, tal como se muestra en la figura 3.
+        p.mb-3 Habiendo recordado las metodologías ágiles, se puede especificar que las pruebas ágiles <i>(Agile testing)</i>es una práctica que se realiza en cada iteración, por lo tanto existen dos tipos de planificaciones <em>release</em>/entrega que hace referencia a las entregas frecuentes al cliente, es decir, poner en producción nuevas versiones del producto y <em>sprint</em>/iteración que hace referencia a que un proyecto se ejecuta en bloques temporales cortos y fijos, no obstante, estas se pueden dar en un mismo momento, es decir, que puede incluir una sola planificación con actividades tanto del <em>release</em> como del <em>sprint</em>, tal como se muestra en la figura 3.
       .col-lg-7.mb-5.mb-lg-0 
         .row.justify-content-center
           .col-lg-12
             .titulo-sexto.color-acento-contenido
               h5 Figura 3
-              span <i>Actividades sprints release </i>
+              span <i>Actividades sprints <em>release</em> </i>
         img.my-3(src="@/assets/curso/images/tema1/img_24.svg", alt="")
 
     p.mb-3 Por otro lado, también se debe tener en cuenta que la metodología de desarrollo de <i>software</i> tradicional en cascada utiliza diferentes tipos de pruebas de <i>software</i> que probaran tanto requerimientos funcionales como no funcionales de manera secuencial. No obstante, en metodologías ágiles, específicamente en las pruebas ágiles, también se consideran varios tipos de pruebas, pero teniendo en cuenta que se utilizan sprints o interacciones cortas e interacciones continúas entre los equipos de desarrollo, diseño y pruebas. 
@@ -651,7 +644,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p Cuadrantes de prueba, Hands-on QA, VA-25.Curso de Interacción Persona-Ordenador
+                  p Cuadrantes de prueba, <i>Hands-on</i> QA, VA-25.Curso de Interacción Persona-Ordenador
       .col-lg-4.mb-5.mb-lg-0
         img.my-3(src="@/assets/curso/images/tema1/img_30.svg", alt="")
 
@@ -696,7 +689,7 @@
           p Estas pruebas pueden tener un carácter positivo, puesto que a partir de ellas se pueden sugerir o realizar mejoras. Cuando se ejecutan estas pruebas, la idea es simular lo más que se pueda un ambiente real en el cual serán ejecutadas, así mismo estas pruebas frecuentemente son realizadas por los usuarios finales como pruebas de aceptación (UAT).
         .col-lg-4
           figure
-            img(src="@/assets/curso/images/tema1/img_35.svg" alt="", style="width:200px; display:block; margin:0 auto;")
+            img.img-a.img-t.py-3(src="@/assets/curso/images/tema1/img_35_1.svg" alt="", style="width:200px;")
       .row.align-items-center.justify-content-center
         .col-lg-5
           h3 El primer cuadrante <i>(Q1)</i> contiene los siguientes tipos de pruebas:
@@ -704,7 +697,7 @@
           p ●  Pruebas de componente.
         .col-lg-4
           figure
-            img(src="@/assets/curso/images/tema1/img_36.svg" alt="", style="width:200px; display:block; margin:0 auto;")
+            img(src="@/assets/curso/images/tema1/img_35.svg" alt="", style="width:200px; display:block; margin:0 auto;")
       .row.align-items-center.justify-content-center
         .col-lg-5
           h3 El Segundo cuadrante <i>(Q2)</i> definen las funcionalidades que el cliente solicita:
@@ -713,7 +706,7 @@
           p ●   Pruebas de prototipos y simulaciones.
         .col-lg-4
           figure
-            img(src="@/assets/curso/images/tema1/img_37.svg" alt="", style="width:200px; display:block; margin:0 auto;")
+            img(src="@/assets/curso/images/tema1/img_36.svg" alt="", style="width:200px; display:block; margin:0 auto;")
       .row.align-items-center.justify-content-center
         .col-lg-5
           h3 El tercer cuadrante <i>(Q3)</i> contiene los siguientes tipos de pruebas:
@@ -723,10 +716,10 @@
           p ●   Pruebas de aceptación de usuario
         .col-lg-4
           figure
-            img(src="@/assets/curso/images/tema1/img_38.svg" alt="", style="width:200px; display:block; margin:0 auto;")
+            img(src="@/assets/curso/images/tema1/img_37.svg" alt="", style="width:200px; display:block; margin:0 auto;")
       .row.align-items-center.justify-content-center
         .col-lg-5
-          h3 El cuarto cuadrante <i>(Q4)</i>contiene pruebas técnicas
+          h3 El cuarto cuadrante <i>(Q4)</i> contiene pruebas técnicas
           p Relacionadas con los requerimientos no funcionales, por lo que validan el cumplimiento de estos, analizando la seguridad, el desempeño y la robustez. 
           p ●   Pruebas de rendimiento y de estrés.
           p ●   Pruebas de seguridad.
@@ -735,15 +728,15 @@
           figure
             img(src="@/assets/curso/images/tema1/img_39.svg" alt="", style="width:200px; display:block; margin:0 auto;")
         
-    p.mb-5 A continuación, se describen algunas recomendaciones para tener en cuenta al momento de trabajar con pruebas de <i>software</i> ágiles (<i>Agile testing</i>).
+    p.mb-5.pt-5 A continuación, se describen algunas recomendaciones para tener en cuenta al momento de trabajar con pruebas de <i>software</i> ágiles (<i>Agile testing</i>).
 
     TabsA.color-primario.mb-5
     
-      .tarjeta.back-tab.p-4(titulo="Realizar las pruebas en el proyecto al inicio, en cada sprint y constantemente")
+      .tarjeta.back-tab.p-4(titulo="Realizar las pruebas en el proyecto al inicio, en cada <i>sprint</i> y constantemente")
         
         .row 
           .col-lg-8.mb-4
-            h4 Realizar las pruebas en el proyecto al inicio, en cada sprint y constantemente
+            h4 Realizar las pruebas en el proyecto al inicio, en cada <i>sprint</i> y constantemente
             p.mb-3  ● Integrar pruebas unitarias, funcionales y de carga en la planificación desde el principio.
             p ● Identificar y rectificar problemas de forma temprana, antes que se conviertan en problemas complejos que puedan influir el proyecto.
           .col-lg-4.mb-4
@@ -840,7 +833,7 @@
         .col-lg-7
           p.mb-3 Si es de su interés conocer más sobre el proceso de realizar las pruebas unitarias y <i>Test-Driven Development</i>, se le invita a consultar el videotutorial en el  material complementario, al cual puede acceder en el siguiente enlace.
         .col-lg-5 
-          a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=gz7A7EMZT_4" target="_blank")
+          a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=YuRdaR6wwWU" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
@@ -863,7 +856,7 @@
                 th Ejemplo 
             tbody
               tr
-                td.th-1(rowspan='3') 
+                td.th-1(rowspan='4') 
                   p.text-center.cs <b>Red</b>
                 td
                   p 1. Lo primero es que el cliente escriba una historia de usuario. 
@@ -873,12 +866,18 @@
                 td
                   p 2. Los criterios de aceptación de esta historia se escriben con el cliente, deben estar bien detallados.                 
                 td
-                  p 3. Se define con el cliente que el criterio de aceptación está relacionado con: si se introduce en la aplicación dos números y se suma o resta, entonces la aplicación visualiza el resultado en pantalla       
+                  p Se define con el cliente que el criterio de aceptación está relacionado con: si se introduce en la aplicación dos números y se suma o resta, entonces la aplicación visualiza el resultado en pantalla  
+              tr
+                td
+                  p 3. Se debe seleccionar el criterio de aceptación más sencillo y se traduce en una prueba unitaria.                 
+                td
+                  p De acuerdo a este criterio, se empieza a especificar o definir el funcionamiento del algoritmo para la suma y la resta y luego se convierte el criterio de aceptación en una prueba específica, por ejemplo, un algoritmo que si se introduce los números 3 y 8 devuelve 11. <br>Ejemplo de cómo sería la clase para calcular: <br><br>  <pre><code> public void testSuma  () { assertEquals(8, Operaciones.suma(3,8)); }</code></pre>
+                       
               tr
                 td
                   p 4. Se verifica que la prueba falla.           
                 td 
-                  p Si se intenta pasar este test resultará en error, debido a que la clase Operaciones todavía no existe.
+                  p Si se intenta pasar este test resultará en error, debido a que la clase <b>Operaciones</b> todavía no existe.
                         
               tr
                 td.th-2(rowspan='3')
@@ -959,7 +958,7 @@
 
       p.mb-3 ATDD no es una técnica de desarrollo o una buena práctica; tiene un enfoque superior. Es una metodología de trabajo para desarrollar <i>software</i>, que busca comprobar si los pasos que se siguen en el desarrollo son los mejores para llegar al objetivo. Con TDD solo se ve si lo que se desarrolla está codificado correctamente y sin errores, es un enfoque miope, solo centrado en desarrollar código de calidad, no la aplicación en su conjunto.
 
-      p.mb-3  Al igual que ocurre en TDD, ATDD consta de una serie de pasos secuenciales que se presentan en la siguiente figura 6.
+      p.mb-3  Al igual que ocurre en TDD, ATDD consta de una serie de pasos secuenciales que se presentan en la siguiente figura 7.
 
     .row.justify-content-center.mb-3
       .col-lg-12
@@ -1019,8 +1018,8 @@
         .jumbotron-9.mb-3.p-3
           .row.align-items-center.justify-content-center
             .col-lg-8
-              p.mb-3 Si es de su interés conocer más sobre el <i>Testing</i> exploratorio, se le invita a consultar el webinar en el  material complementario, al cual puede acceder en el siguiente enlace.
-              a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=gz7A7EMZT_4" target="_blank")
+              p.mb-3 Si es de su interés conocer más sobre el <i>Testing</i> exploratorio, se le invita a consultar el webinar en el siguiente enlace.
+              a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=j0eAvYSAbA8" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
@@ -1067,7 +1066,7 @@
     p.mb-3 Se debe analizar los flujos que son los que más convienen y no limitarse a probarlos, debido a que será más costoso que falle en producción.
 
     .cajon-b.cajon-b--c.color-primario.p-4
-      p.mb-0 Estas pruebas toman tiempo en ejecutarlas, sin embargo, al automatizar pruebas, las pruebas de regresión serán asertivas y rápidas, también si se cuenta con los #[<i>scripts</i>] de las pruebas cualquier persona podrá ejecutarlas, sin requerir de un grupo de <i>testers</i> capacitados para estas pruebas, de hecho, si la aplicación original ya tiene mucho tiempo desde la primera vez que se liberó a producción, entonces el riesgo de no contar con alguien que tenga el conocimiento de los flujos se reduce.
+      p.mb-0 Estas pruebas toman tiempo en ejecutarlas, sin embargo, al automatizar pruebas, las pruebas de regresión serán asertivas y rápidas, también si se cuenta con los <i>scripts</i> de las pruebas cualquier persona podrá ejecutarlas, sin requerir de un grupo de <i>testers</i> capacitados para estas pruebas, de hecho, si la aplicación original ya tiene mucho tiempo desde la primera vez que se liberó a producción, entonces el riesgo de no contar con alguien que tenga el conocimiento de los flujos se reduce.
 
     h3.mb-3 Pruebas de regresión
 
@@ -1101,7 +1100,7 @@
             h3 Pruebas de usabilidad
             p.mb-3  El diseño no es solo como se ve y como se siente. El diseño es cómo funciona, y para conocer cómo funciona se debe de tener el conocimiento de usabilidad, por lo tanto, es un método para evaluar la experiencia del usuario de una aplicación o producto <i>software</i>. Cuando se prueba la usabilidad con un conjunto representativo de clientes o usuarios, los evaluadores de la experiencia de usuario saben por ejemplo si los usuarios reales pueden usar la aplicación o el producto <i>software</i> de forma sencilla e intuitiva.
 
-            La usabilidad es una parte crítica del proceso de desarrollo <i>software</i>, debido a su naturaleza iterativa. Una evaluación de usabilidad es la mejor manera de poner un producto en manos de usuarios reales para ver si lo usan y cómo lo usan antes del lanzamiento del producto.
+            p La usabilidad es una parte crítica del proceso de desarrollo <i>software</i>, debido a su naturaleza iterativa. Una evaluación de usabilidad es la mejor manera de poner un producto en manos de usuarios reales para ver si lo usan y cómo lo usan antes del lanzamiento del producto.
           .col-lg-5
             figure
               img(src='@/assets/curso/images/tema1/img_62.svg' alt='')
@@ -1118,7 +1117,7 @@
             figure
               img(src='@/assets/curso/images/tema1/img_63.svg' alt='')
       
-    h3.mb-3 Pruebas desempeño, carga y seguridad
+    h3.mb-3 Pruebas de desempeño, carga y seguridad
 
     p.mb-5 Es un momento exitoso cuando se finaliza la programación de una aplicación, lo cual, al transcurrir el tiempo, tener un producto terminado es un logro importante. No obstante, es momento también de probar varios aspectos del <i>software</i>, para asegurar su funcionamiento y controlar su calidad. Desempeño, seguridad y carga son factores importantes que se deben revisar con todo el producto <i>software</i> que se desarrolle, a continuación se describe cada uno: 
     
@@ -1128,7 +1127,7 @@
         .row.align-items-center.justify-content-center
           .col-lg-8
             h3 Pruebas de desempeño
-            p Las pruebas de desempeño permiten determinar el comportamiento de un sistema en términos de estabilidad y respuesta con respecto a un escenario en particular, referente a la carga de trabajo, concurrencia, ancho de banda, características particulares de equipos o servidores, como <i>Ram, CPU</i>. También permiten identificar, medir, investigar, validar o verificar otros aspectos de calidad, tales como la seguridad, escalabilidad y el consumo de recursos. Estas pruebas constituyen unos estándares de ejecución en la implementación, diseño y arquitectura de un producto <i>software</i>. Por lo tanto, una de las pruebas de desempeño esenciales es la prueba de carga que se menciona a continuación. 
+            p Las pruebas de desempeño permiten determinar el comportamiento de un sistema en términos de estabilidad y respuesta con respecto a un escenario en particular, referente a la carga de trabajo, concurrencia, ancho de banda, características particulares de equipos o servidores, como <i>RAM, CPU</i>. También permiten identificar, medir, investigar, validar o verificar otros aspectos de calidad, tales como la seguridad, escalabilidad y el consumo de recursos. Estas pruebas constituyen unos estándares de ejecución en la implementación, diseño y arquitectura de un producto <i>software</i>. Por lo tanto, una de las pruebas de desempeño esenciales es la prueba de carga que se menciona a continuación. 
           .col-lg-3
             figure
               img(src='@/assets/curso/images/tema1/img_64.svg' alt='')
@@ -1208,7 +1207,7 @@
     .row.align-items-end.justify-content-center.mb-5.fondo-6
       .col-lg-6.ofVisible
         h3 Incidencias detectadas
-        p.mb-5 La gestión de incidencias es un elemento central e importante en el proceso de calidad de <i>software</i> puesto que es en este punto donde se tienen en cuenta los errores ( <i>bugs</i> ). Por lo tanto, el propósito de las incidencias detectadas es precisamente generar su corrección, de tal manera que sea mínimamente probable que el error se repita. 
+        p.mb-5 La gestión de incidencias es un elemento central e importante en el proceso de calidad de <i>software</i>, puesto que es en este punto donde se tienen en cuenta los errores (<i>bugs</i>). Por lo tanto, el propósito de las incidencias detectadas es precisamente generar su corrección, de tal manera que sea mínimamente probable que el error se repita. 
       .col-lg-5
         figure
           img(src='@/assets/curso/images/tema1/img_73.svg' alt='imagen relacionada')

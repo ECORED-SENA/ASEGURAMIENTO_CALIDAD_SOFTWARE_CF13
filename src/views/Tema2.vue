@@ -71,7 +71,7 @@
                   
                     thead
                       tr.th-4.text-center
-                        th Causa averia
+                        th Causa avería
                         th Incidentes
                         th Acumulado
                         th %
@@ -175,7 +175,7 @@
     #t_2_4.titulo-segundo
       .h4 2.4 Seleccionar las acciones de mejora
 
-    p.mb-3 En este punto se debe seleccionar las opciones de mejora para priorizar las más apropiadas. Para esto se pueden utilizar algunas técnicas tales como técnica del grupo nominal y tormenta de ideas entre otras, que permiten establecer acciones de mejora que se convierten en solución para las debilidades. Lo anterior quiere decir que, para cumplir con los objetivos establecidos, se debe de tener un listado de las principales actuaciones. A continuación, se muestra una tabla que muestra que, para seleccionar las acciones de mejora, se deben haber identificado el problema, la causa y su objetivo. 
+    p.mb-3 En este punto se debe seleccionar las opciones de mejora para priorizar las más apropiadas. Para esto se pueden utilizar algunas técnicas tales como técnica del grupo nominal y tormenta de ideas, entre otras, que permiten establecer acciones de mejora que se convierten en solución para las debilidades. Lo anterior quiere decir que, para cumplir con los objetivos establecidos, se debe de tener un listado de las principales actuaciones. A continuación, se muestra una tabla que muestra que, para seleccionar las acciones de mejora, se deben haber identificado el problema, la causa y su objetivo. 
 
     .row.align-items-center.justify-content-center.mb-3
       .col-12.col-lg-7.mb-5.mb-lg-0
@@ -336,11 +336,6 @@
         td
         td
     
-    h3.mt-5 Sintesis 
-    
-    .row.align-items-center.justify-content-center.mt-5
-      .col-12.col-lg-12.mb-5.mb-lg-0
-          img(src='@/assets/curso/images/tema2/img_9.svg' alt="")
 
 </template>
 
